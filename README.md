@@ -1,117 +1,81 @@
-🚀 AI-Powered Career Recommender – Backend (FastAPI)
+🚀 AI-Powered Career Recommender — Backend
 
-This is the backend service for the AI-Powered Career Recommender & Roadmap Generator, responsible for authentication, assessment management, machine-learning career predictions, roadmap generation, and user progress tracking.
+Developed by Abhijit More
 
-Backend Developed by: Abhijit More
-📌 GitHub: https://github.com/AbhijitMore-15
+The backend powers the AI-driven recommendation engine, user authentication, secure token handling, and seamless communication with the frontend using FastAPI.
 
-🔥 Features
-🔐 Authentication
+🛠️ Tech Stack
 
-User registration & login
+FastAPI (Python)
 
-JWT-based authorization
+MongoDB
 
-Password hashing with Argon2
+JWT Authentication
 
-📝 Assessment Handling
+Passlib Argon2 Password Hashing
 
-Accepts user skills, interests, education & goals
+Uvicorn
 
-Secure database storage (MongoDB)
-
-🎯 Career Recommendation Engine
-
-TF-IDF + Cosine Similarity
-
-RandomForest model support
-
-Returns ranked career matches
-
-🛣 AI Roadmap Generator
-
-Skill gap analysis
-
-Course, tools, and project suggestions
-
-Timeline-based roadmap creation
-
-📈 Progress Tracking
-
-Track user skill completion
-
-Roadmap completion percentage
-
-🛠 Tech Stack
-Component	Technology
-Framework	FastAPI
-Database	MongoDB
-Authentication	JWT + Argon2
-ML Models	TF-IDF, RandomForest, SBERT (optional)
-Validation	Pydantic
-Server	Uvicorn
 📦 Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend.git
 cd Ai-Powered-Career-Recommender-Backend
 
-2️⃣ Install Dependencies
+📁 Create & Activate Virtual Environment
+Windows
+python -m venv venv
+venv\Scripts\activate
+
+Mac / Linux
+python3 -m venv venv
+source venv/bin/activate
+
+📥 Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Create Your .env File
-SECRET_KEY=your-secret-key
+⚙️ Environment Variables
+
+Create a .env file in the root folder:
+
+SECRET_KEY=your_secret_key
 ALGORITHM=HS256
-MONGODB_URL=your-mongodb-url
+MONGO_URI=your_mongodb_url
+ACCESS_TOKEN_EXPIRE_MINUTES=30
 
-4️⃣ Start the Server
-uvicorn app.main:app --reload
+▶️ Run the Backend Server
+uvicorn main:app --reload
 
-5️⃣ Open API Docs
 
-Swagger UI → http://127.0.0.1:8000/docs
+The API will now be live at:
+👉 http://localhost:8000
 
-Redoc → http://127.0.0.1:8000/redoc
+🔐 Authentication
 
-📂 Project Structure
-backend/
-│── app/
-│   ├── routers/          # API routes (auth, assessment, career, roadmap, progress)
-│   ├── models/           # Database models
-│   ├── schemas/          # Pydantic schemas
-│   ├── core/             # Security utils (JWT, hashing)
-│   ├── database/         # MongoDB connection
-│   └── main.py           # Main FastAPI application
-│
-├── requirements.txt
-└── README.md
+The backend uses:
 
-🔌 API Endpoints
-🔐 Auth
-POST /auth/register
-POST /auth/login
-GET  /auth/me
+JWT for secure token-based authentication
 
-📝 Assessment
-POST /assessment/submit
+Argon2 hash using Passlib for strong password security
 
-🎯 Career Recommendation
-POST /career/recommend
-POST /career/predict
+📡 API Endpoints Overview
+🔑 Authentication
+Method	Endpoint	Description
+POST	/register	Register new user
+POST	/login	Login user & receive token
+🧠 Recommendation System
+Method	Endpoint	Description
+POST	/predict-career	Predict career based on inputs
+POST	/generate-roadmap	Generate AI-powered learning roadmap
+🏗️ Project Structure
+Ai-Powered-Career-Recommender-Backend/
+│── main.py
+│── routes/
+│── models/
+│── database/
+│── utils/
+│── requirements.txt
+│── .env
 
-🛣 Roadmap Generator
-POST /career/roadmap
-
-📈 Progress Tracking
-POST /progress/update
-GET  /progress/fetch
-
-🙌 Credits
-Backend Developed By:AbhijitMore-15
-
-Abhijit More
-🔗 Backend Repository:
-https://github.com/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend
-
-📜 License
-
-MIT License
+✨ Abhijit More
+Backend Repository:
+👉 https://github.com/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend

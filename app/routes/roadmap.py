@@ -9,7 +9,10 @@ def generate_roadmap(payload: RoadmapRequest):
         "Learn basics",
         "Take online courses",
         "Build 3 projects",
-        "Apply for internships",
+        "Apply for internships"
     ]
 
-    return RoadmapResponse(career=payload.career, steps=roadmap)
+    return {
+        "career": payload.career,
+        "steps": roadmap
+    }

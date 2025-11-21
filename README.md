@@ -1,100 +1,97 @@
-🎯 AI-Powered Career Recommender – Backend (FastAPI)
+🚀 AI-Powered Career Recommender – Backend (FastAPI)
 
-This backend powers the AI-Driven Career Recommendation & Roadmap System, handling authentication, assessment storage, ML-based career prediction, roadmap generation, and progress tracking.
+This is the backend service for the AI-Powered Career Recommender & Roadmap Generator, responsible for authentication, assessment management, machine-learning career predictions, roadmap generation, and user progress tracking.
 
-Developed by Abhijit More
-🔗 Backend Repository: https://github.com/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend
+Backend Developed by: Abhijit More
+📌 GitHub: https://github.com/AbhijitMore-15
 
-🚀 Features (Backend)
+🔥 Features
 🔐 Authentication
 
-User registration
+User registration & login
 
-Login with JWT
+JWT-based authorization
 
-Secure token-based authorization
+Password hashing with Argon2
 
-Password hashing using Argon2
+📝 Assessment Handling
 
-📝 Assessment System
+Accepts user skills, interests, education & goals
 
-Accepts user skills, interests, education, goals
-
-Stores assessment data securely in the database
+Secure database storage (MongoDB)
 
 🎯 Career Recommendation Engine
 
 TF-IDF + Cosine Similarity
 
-Optional ML classifier (RandomForest)
+RandomForest model support
 
-Returns top career matches with confidence scores
+Returns ranked career matches
 
-📚 Roadmap Generator
+🛣 AI Roadmap Generator
 
-Dynamic skill-gap analysis
+Skill gap analysis
 
-Auto-generated learning roadmap
+Course, tools, and project suggestions
 
-Courses, tools, projects, timeline suggestions
+Timeline-based roadmap creation
 
-📊 Progress Tracking
+📈 Progress Tracking
 
-Update and fetch completed skills
+Track user skill completion
 
-Tracks user journey toward selected career
+Roadmap completion percentage
 
 🛠 Tech Stack
 Component	Technology
-Framework	FastAPI (Python)
+Framework	FastAPI
 Database	MongoDB
 Authentication	JWT + Argon2
 ML Models	TF-IDF, RandomForest, SBERT (optional)
-Data Validation	Pydantic
+Validation	Pydantic
 Server	Uvicorn
 📦 Installation & Setup
-1️⃣ Clone the backend repository
+1️⃣ Clone the Repository
 git clone https://github.com/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend.git
 cd Ai-Powered-Career-Recommender-Backend
 
-2️⃣ Install dependencies
+2️⃣ Install Dependencies
 pip install -r requirements.txt
 
-3️⃣ Create your .env file
+3️⃣ Create Your .env File
 SECRET_KEY=your-secret-key
 ALGORITHM=HS256
 MONGODB_URL=your-mongodb-url
 
-4️⃣ Run the FastAPI server
+4️⃣ Start the Server
 uvicorn app.main:app --reload
 
-5️⃣ Test API Docs
+5️⃣ Open API Docs
 
-Once running, open:
-👉 http://127.0.0.1:8000/docs
+Swagger UI → http://127.0.0.1:8000/docs
 
-(Interactive Swagger API docs)
+Redoc → http://127.0.0.1:8000/redoc
 
 📂 Project Structure
 backend/
 │── app/
-│   ├── routers/          # API routes (auth, career, roadmap, progress)
+│   ├── routers/          # API routes (auth, assessment, career, roadmap, progress)
 │   ├── models/           # Database models
 │   ├── schemas/          # Pydantic schemas
-│   ├── core/             # Security, JWT, hashing
+│   ├── core/             # Security utils (JWT, hashing)
 │   ├── database/         # MongoDB connection
-│   └── main.py           # Main FastAPI entry point
+│   └── main.py           # Main FastAPI application
 │
 ├── requirements.txt
 └── README.md
 
 🔌 API Endpoints
-🧑‍💻 Auth
+🔐 Auth
 POST /auth/register
 POST /auth/login
 GET  /auth/me
 
-📊 Assessment
+📝 Assessment
 POST /assessment/submit
 
 🎯 Career Recommendation
@@ -108,16 +105,13 @@ POST /career/roadmap
 POST /progress/update
 GET  /progress/fetch
 
-👨‍💻 Developer
-
-Backend Developed By:
+🙌 Credits
+Backend Developed By:AbhijitMore-15
 
 Abhijit More
-
-🔗 GitHub: https://github.com/AbhijitMore-15
-
-🔗 Backend Repo: https://github.com/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend
+🔗 Backend Repository:
+https://github.com/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend
 
 📜 License
 
-MIT License – Free to use and contribute.
+MIT License

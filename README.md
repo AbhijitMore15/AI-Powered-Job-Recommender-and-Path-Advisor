@@ -5,7 +5,7 @@
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.104%2B-009688.svg?style=flat&logo=fastapi)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4.0%2B-green.svg?style=flat&logo=mongodb)
 ![JWT](https://img.shields.io/badge/JWT-Authentication-black)
-![License](https://img.shields.io/github/license/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend)
+![License](https://img.shields.io/github/license/AbhijitMore15/Ai-Powered-Career-Recommender-Backend)
 
 A high-performance, secure backend built with **FastAPI** that powers an intelligent career recommendation engine. It handles user authentication, processes skill/personality inputs, delivers AI-driven career predictions, and generates personalized learning roadmaps.
 
@@ -45,7 +45,7 @@ Developed & maintained by **Abhijit More**
 
 #### 1. Clone the Repository
 ```bash
-git clone https://github.com/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend.git
+git clone https://github.com/AbhijitMore15/Ai-Powered-Career-Recommender-Backend.git
 cd Ai-Powered-Career-Recommender-Backend
 ```
 
@@ -161,7 +161,7 @@ This project is licensed under the **Apache License** – see the [LICENSE](LICE
 **Abhijit More**  
 Backend Developer | AI Enthusiast
 
-🔗 GitHub: [github.com/AbhijitMore-15](https://github.com/AbhijitMore-15)  
-🔗 Repository: [Ai-Powered-Career-Recommender-Backend](https://github.com/AbhijitMore-15/Ai-Powered-Career-Recommender-Backend)
+🔗 GitHub: [github.com/AbhijitMore15](https://github.com/AbhijitMore15)  
+🔗 Repository: [Ai-Powered-Career-Recommender-Backend](https://github.com/AbhijitMore15/Ai-Powered-Career-Recommender-Backend)
 
 ---

@@ -9,30 +9,35 @@ CAREERS = load_careers_json()
 
 @router.post("/", response_model=RoadmapResponse)
 def generate_roadmap(payload: RoadmapRequest):
-    career_name = payload.career.lower()
 
-    # Find the career in the dataset
+    name = payload.career.lower()
     selected = None
+
     for c in CAREERS:
-        if c["career_name"].lower() == career_name:
+        if c["career_name"].lower() == name:
             selected = c
             break
 
     if not selected:
         raise HTTPException(status_code=404, detail="Career not found")
 
-    # Extract required skills
-    required_skills = selected.get("required_skills", [])
+    skill_gap = skill_gap_analysis(payload.current_skills, selected.get("required_skills", []))
 
-    # Skill gap analysis
-    skill_gap = skill_gap_analysis(payload.current_skills, required_skills)
+    roadmap = create_ai_roadmap(
+        selected,
+        payload.current_skills,
+        payload.effort
+    )
 
-    # Roadmap (unpack the tuple)
-    _, roadmap = create_ai_roadmap(selected, payload.current_skills)
+    explanation = (
+        f"AI generated this roadmap based on your current skills and effort level {payload.effort}. "
+        f"Higher effort reduces timeline and accelerates learning."
+    )
 
     return {
         "career": selected["career_name"],
         "difficulty": selected.get("difficulty_level", "Medium"),
         "skill_gap": skill_gap,
-        "roadmap": roadmap
+        "roadmap": roadmap,
+        "explanation": explanation
     }

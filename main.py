@@ -6,6 +6,8 @@ from app.routes.roadmap import router as roadmap_router
 from app.routes.compare import router as compare_router
 from app.routes.profile import router as profile_router
 from app.routes.careers import router as careers_router
+from app.routes.generator import router as generator_router
+from app.routes.confidence import router as confidence_router
 
 app = FastAPI(title="Career AI Backend")
 
@@ -17,7 +19,13 @@ app.include_router(roadmap_router, prefix="/roadmap", tags=["Roadmap"])
 app.include_router(compare_router, prefix="/compare", tags=["Compare"])
 app.include_router(profile_router, prefix="/profile", tags=["Profile"])
 app.include_router(careers_router, prefix="/careers", tags=["Careers"])
+app.include_router(generator_router, prefix="/generate", tags=["Generator"])
+app.include_router(confidence_router, prefix="/confidence", tags=["Confidence"])
 
 @app.get("/")
 def home():
     return {"message": "Career AI Backend Running"}
+
+
+
+

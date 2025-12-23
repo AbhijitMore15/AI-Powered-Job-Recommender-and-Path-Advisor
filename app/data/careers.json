@@ -46,7 +46,32 @@
       "Computer Vision Engineer",
       "Security Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "java",
+      "javascript",
+      "c++",
+      "sql",
+      "rest apis",
+      "git"
+    ],
+    "tags": [
+      "git",
+      "java",
+      "javascript",
+      "c++",
+      "sql",
+      "rest_apis"
+    ],
+    "keywords": [
+      "software engineer",
+      "java",
+      "javascript",
+      "c++",
+      "sql",
+      "rest apis",
+      "git"
+    ]
   },
   {
     "career_name": "Full Stack Developer",
@@ -95,7 +120,32 @@
       "DevOps Engineer",
       "Robotics Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "git",
+      "azure",
+      "rest apis",
+      "aws",
+      "linux",
+      "python"
+    ],
+    "tags": [
+      "git",
+      "azure",
+      "rest_apis",
+      "aws",
+      "linux",
+      "python"
+    ],
+    "keywords": [
+      "full stack developer",
+      "git",
+      "azure",
+      "rest apis",
+      "aws",
+      "linux",
+      "python"
+    ]
   },
   {
     "career_name": "Frontend Developer",
@@ -144,7 +194,32 @@
       "QA Engineer",
       "Game Developer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "c++",
+      "algorithms",
+      "rest apis",
+      "aws",
+      "microservices",
+      "git"
+    ],
+    "tags": [
+      "git",
+      "c++",
+      "algorithms",
+      "rest_apis",
+      "aws",
+      "microservices"
+    ],
+    "keywords": [
+      "frontend developer",
+      "c++",
+      "algorithms",
+      "rest apis",
+      "aws",
+      "microservices",
+      "git"
+    ]
   },
   {
     "career_name": "Backend Developer",
@@ -193,7 +268,32 @@
       "Data Engineer Specialist",
       "Aerospace Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "javascript",
+      "algorithms",
+      "data structures",
+      "linux",
+      "kubernetes",
+      "java"
+    ],
+    "tags": [
+      "javascript",
+      "algorithms",
+      "data_structures",
+      "linux",
+      "kubernetes",
+      "java"
+    ],
+    "keywords": [
+      "backend developer",
+      "javascript",
+      "algorithms",
+      "data structures",
+      "linux",
+      "kubernetes",
+      "java"
+    ]
   },
   {
     "career_name": "Mobile App Developer",
@@ -242,7 +342,32 @@
       "Game Developer Specialist",
       "Blockchain Developer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "algorithms",
+      "javascript",
+      "kubernetes",
+      "azure",
+      "data structures",
+      "aws"
+    ],
+    "tags": [
+      "algorithms",
+      "javascript",
+      "kubernetes",
+      "azure",
+      "data_structures",
+      "aws"
+    ],
+    "keywords": [
+      "mobile app developer",
+      "algorithms",
+      "javascript",
+      "kubernetes",
+      "azure",
+      "data structures",
+      "aws"
+    ]
   },
   {
     "career_name": "DevOps Engineer",
@@ -291,7 +416,32 @@
       "AI Researcher Specialist",
       "Software Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "data structures",
+      "rest apis",
+      "c++",
+      "microservices",
+      "azure",
+      "java"
+    ],
+    "tags": [
+      "data_structures",
+      "rest_apis",
+      "c++",
+      "microservices",
+      "azure",
+      "java"
+    ],
+    "keywords": [
+      "devops engineer",
+      "data structures",
+      "rest apis",
+      "c++",
+      "microservices",
+      "azure",
+      "java"
+    ]
   },
   {
     "career_name": "Site Reliability Engineer",
@@ -340,7 +490,32 @@
       "Electrical Engineer",
       "Data Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "rest apis",
+      "kubernetes",
+      "data structures",
+      "aws",
+      "javascript",
+      "microservices"
+    ],
+    "tags": [
+      "rest_apis",
+      "kubernetes",
+      "data_structures",
+      "aws",
+      "javascript",
+      "microservices"
+    ],
+    "keywords": [
+      "site reliability engineer",
+      "rest apis",
+      "kubernetes",
+      "data structures",
+      "aws",
+      "javascript",
+      "microservices"
+    ]
   },
   {
     "career_name": "QA Engineer",
@@ -389,7 +564,32 @@
       "Quality Engineer",
       "Robotics Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "aws",
+      "rest apis",
+      "kubernetes",
+      "azure",
+      "docker",
+      "python"
+    ],
+    "tags": [
+      "docker",
+      "aws",
+      "rest_apis",
+      "kubernetes",
+      "azure",
+      "python"
+    ],
+    "keywords": [
+      "qa engineer",
+      "aws",
+      "rest apis",
+      "kubernetes",
+      "azure",
+      "docker",
+      "python"
+    ]
   },
   {
     "career_name": "Data Engineer",
@@ -438,7 +638,32 @@
       "Automation Engineer",
       "Database Administrator"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "kubernetes",
+      "rest apis",
+      "sql",
+      "algorithms",
+      "docker",
+      "python"
+    ],
+    "tags": [
+      "docker",
+      "kubernetes",
+      "rest_apis",
+      "sql",
+      "algorithms",
+      "python"
+    ],
+    "keywords": [
+      "data engineer",
+      "kubernetes",
+      "rest apis",
+      "sql",
+      "algorithms",
+      "docker",
+      "python"
+    ]
   },
   {
     "career_name": "Data Scientist",
@@ -487,7 +712,34 @@
       "Robotics Engineer",
       "Physiotherapist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "c++",
+      "azure",
+      "microservices",
+      "kubernetes",
+      "git",
+      "docker",
+      "data science",
+      "data"
+    ],
+    "tags": [
+      "git",
+      "docker",
+      "c++",
+      "azure",
+      "microservices",
+      "kubernetes"
+    ],
+    "keywords": [
+      "data scientist",
+      "c++",
+      "azure",
+      "microservices",
+      "kubernetes",
+      "git",
+      "docker"
+    ]
   },
   {
     "career_name": "Machine Learning Engineer",
@@ -536,7 +788,32 @@
       "Railway Engineer",
       "Algorithm Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "c++",
+      "kubernetes",
+      "machine learning",
+      "sql",
+      "java",
+      "rest apis"
+    ],
+    "tags": [
+      "c++",
+      "kubernetes",
+      "machine_learning",
+      "sql",
+      "java",
+      "rest_apis"
+    ],
+    "keywords": [
+      "machine learning engineer",
+      "c++",
+      "kubernetes",
+      "machine learning",
+      "sql",
+      "java",
+      "rest apis"
+    ]
   },
   {
     "career_name": "AI Researcher",
@@ -585,7 +862,32 @@
       "NLP Engineer",
       "Data Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "aws",
+      "git",
+      "linux",
+      "docker",
+      "algorithms",
+      "c++"
+    ],
+    "tags": [
+      "git",
+      "docker",
+      "aws",
+      "linux",
+      "algorithms",
+      "c++"
+    ],
+    "keywords": [
+      "ai researcher",
+      "aws",
+      "git",
+      "linux",
+      "docker",
+      "algorithms",
+      "c++"
+    ]
   },
   {
     "career_name": "NLP Engineer",
@@ -634,7 +936,32 @@
       "MLOps Engineer",
       "Cloud Architect Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "algorithms",
+      "git",
+      "sql",
+      "data structures",
+      "azure",
+      "java"
+    ],
+    "tags": [
+      "git",
+      "algorithms",
+      "sql",
+      "data_structures",
+      "azure",
+      "java"
+    ],
+    "keywords": [
+      "nlp engineer",
+      "algorithms",
+      "git",
+      "sql",
+      "data structures",
+      "azure",
+      "java"
+    ]
   },
   {
     "career_name": "Computer Vision Engineer",
@@ -683,7 +1010,32 @@
       "Game Developer Specialist",
       "Machine Learning Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "algorithms",
+      "java",
+      "aws",
+      "linux",
+      "sql",
+      "rest apis"
+    ],
+    "tags": [
+      "algorithms",
+      "java",
+      "aws",
+      "linux",
+      "sql",
+      "rest_apis"
+    ],
+    "keywords": [
+      "computer vision engineer",
+      "algorithms",
+      "java",
+      "aws",
+      "linux",
+      "sql",
+      "rest apis"
+    ]
   },
   {
     "career_name": "Cloud Engineer",
@@ -732,7 +1084,32 @@
       "Game Developer",
       "Database Administrator"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "java",
+      "algorithms",
+      "aws",
+      "azure",
+      "sql",
+      "data structures"
+    ],
+    "tags": [
+      "java",
+      "algorithms",
+      "aws",
+      "azure",
+      "sql",
+      "data_structures"
+    ],
+    "keywords": [
+      "cloud engineer",
+      "java",
+      "algorithms",
+      "aws",
+      "azure",
+      "sql",
+      "data structures"
+    ]
   },
   {
     "career_name": "Cloud Architect",
@@ -781,7 +1158,32 @@
       "Design Engineer",
       "Physiotherapist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "sql",
+      "javascript",
+      "kubernetes",
+      "java",
+      "machine learning",
+      "algorithms"
+    ],
+    "tags": [
+      "sql",
+      "javascript",
+      "kubernetes",
+      "java",
+      "machine_learning",
+      "algorithms"
+    ],
+    "keywords": [
+      "cloud architect",
+      "sql",
+      "javascript",
+      "kubernetes",
+      "java",
+      "machine learning",
+      "algorithms"
+    ]
   },
   {
     "career_name": "Database Administrator",
@@ -830,7 +1232,32 @@
       "Geotechnical Engineer",
       "Frontend Developer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "data structures",
+      "algorithms",
+      "kubernetes",
+      "azure",
+      "c++",
+      "python"
+    ],
+    "tags": [
+      "data_structures",
+      "algorithms",
+      "kubernetes",
+      "azure",
+      "c++",
+      "python"
+    ],
+    "keywords": [
+      "database administrator",
+      "data structures",
+      "algorithms",
+      "kubernetes",
+      "azure",
+      "c++",
+      "python"
+    ]
   },
   {
     "career_name": "Systems Architect",
@@ -873,7 +1300,30 @@
       "Chef",
       "General Practitioner"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "welding",
+      "blueprint reading"
+    ],
+    "tags": [
+      "machine_operation",
+      "hand_tools",
+      "soldering",
+      "welding",
+      "blueprint_reading",
+      "welding_kit"
+    ],
+    "keywords": [
+      "systems architect",
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "welding",
+      "blueprint reading"
+    ]
   },
   {
     "career_name": "Embedded Systems Engineer",
@@ -922,7 +1372,32 @@
       "Cloud Engineer Specialist",
       "Cloud Architect"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "rest apis",
+      "c++",
+      "git",
+      "aws",
+      "kubernetes",
+      "docker"
+    ],
+    "tags": [
+      "git",
+      "rest_apis",
+      "c++",
+      "aws",
+      "kubernetes",
+      "docker"
+    ],
+    "keywords": [
+      "embedded systems engineer",
+      "rest apis",
+      "c++",
+      "git",
+      "aws",
+      "kubernetes",
+      "docker"
+    ]
   },
   {
     "career_name": "Game Developer",
@@ -971,7 +1446,32 @@
       "Air Traffic Controller",
       "Industrial Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "c++",
+      "aws",
+      "java",
+      "azure",
+      "sql",
+      "kubernetes"
+    ],
+    "tags": [
+      "c++",
+      "aws",
+      "java",
+      "azure",
+      "sql",
+      "kubernetes"
+    ],
+    "keywords": [
+      "game developer",
+      "c++",
+      "aws",
+      "java",
+      "azure",
+      "sql",
+      "kubernetes"
+    ]
   },
   {
     "career_name": "Blockchain Developer",
@@ -1020,7 +1520,32 @@
       "Machine Learning Engineer",
       "Cloud Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "microservices",
+      "rest apis",
+      "javascript",
+      "java",
+      "kubernetes",
+      "machine learning"
+    ],
+    "tags": [
+      "microservices",
+      "rest_apis",
+      "javascript",
+      "java",
+      "kubernetes",
+      "machine_learning"
+    ],
+    "keywords": [
+      "blockchain developer",
+      "microservices",
+      "rest apis",
+      "javascript",
+      "java",
+      "kubernetes",
+      "machine learning"
+    ]
   },
   {
     "career_name": "Security Engineer",
@@ -1069,7 +1594,32 @@
       "Reliability Engineer",
       "Aerospace Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "python",
+      "docker",
+      "kubernetes",
+      "microservices",
+      "linux",
+      "machine learning"
+    ],
+    "tags": [
+      "docker",
+      "python",
+      "kubernetes",
+      "microservices",
+      "linux",
+      "machine_learning"
+    ],
+    "keywords": [
+      "security engineer",
+      "python",
+      "docker",
+      "kubernetes",
+      "microservices",
+      "linux",
+      "machine learning"
+    ]
   },
   {
     "career_name": "Cybersecurity Analyst",
@@ -1116,7 +1666,32 @@
       "Legal Consultant",
       "Business Intelligence Analyst"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "communication",
+      "sql",
+      "accounting",
+      "negotiation",
+      "excel",
+      "powerbi"
+    ],
+    "tags": [
+      "excel",
+      "powerbi",
+      "communication",
+      "sql",
+      "accounting",
+      "negotiation"
+    ],
+    "keywords": [
+      "cybersecurity analyst",
+      "communication",
+      "sql",
+      "accounting",
+      "negotiation",
+      "excel",
+      "powerbi"
+    ]
   },
   {
     "career_name": "Network Engineer",
@@ -1165,7 +1740,32 @@
       "Backend Developer",
       "Medical Data Analyst"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "python",
+      "aws",
+      "rest apis",
+      "microservices",
+      "kubernetes",
+      "java"
+    ],
+    "tags": [
+      "python",
+      "aws",
+      "rest_apis",
+      "microservices",
+      "kubernetes",
+      "java"
+    ],
+    "keywords": [
+      "network engineer",
+      "python",
+      "aws",
+      "rest apis",
+      "microservices",
+      "kubernetes",
+      "java"
+    ]
   },
   {
     "career_name": "IoT Engineer",
@@ -1214,7 +1814,32 @@
       "Supply Chain Manager",
       "Nanotechnology Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "git",
+      "microservices",
+      "python",
+      "aws",
+      "kubernetes",
+      "docker"
+    ],
+    "tags": [
+      "git",
+      "microservices",
+      "python",
+      "aws",
+      "kubernetes",
+      "docker"
+    ],
+    "keywords": [
+      "iot engineer",
+      "git",
+      "microservices",
+      "python",
+      "aws",
+      "kubernetes",
+      "docker"
+    ]
   },
   {
     "career_name": "AR/VR Developer",
@@ -1263,7 +1888,32 @@
       "Thermal Engineer",
       "Biotechnologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "microservices",
+      "javascript",
+      "aws",
+      "c++",
+      "git",
+      "azure"
+    ],
+    "tags": [
+      "git",
+      "microservices",
+      "javascript",
+      "aws",
+      "c++",
+      "azure"
+    ],
+    "keywords": [
+      "ar/vr developer",
+      "microservices",
+      "javascript",
+      "aws",
+      "c++",
+      "git",
+      "azure"
+    ]
   },
   {
     "career_name": "Robotics Engineer",
@@ -1312,7 +1962,32 @@
       "Release Engineer",
       "Plant Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "javascript",
+      "azure",
+      "aws",
+      "kubernetes",
+      "linux",
+      "data structures"
+    ],
+    "tags": [
+      "javascript",
+      "azure",
+      "aws",
+      "kubernetes",
+      "linux",
+      "data_structures"
+    ],
+    "keywords": [
+      "robotics engineer",
+      "javascript",
+      "azure",
+      "aws",
+      "kubernetes",
+      "linux",
+      "data structures"
+    ]
   },
   {
     "career_name": "Big Data Engineer",
@@ -1361,7 +2036,32 @@
       "Site Reliability Engineer",
       "Software Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "c++",
+      "sql",
+      "linux",
+      "rest apis",
+      "kubernetes",
+      "aws"
+    ],
+    "tags": [
+      "c++",
+      "sql",
+      "linux",
+      "rest_apis",
+      "kubernetes",
+      "aws"
+    ],
+    "keywords": [
+      "big data engineer",
+      "c++",
+      "sql",
+      "linux",
+      "rest apis",
+      "kubernetes",
+      "aws"
+    ]
   },
   {
     "career_name": "Business Intelligence Analyst",
@@ -1408,7 +2108,32 @@
       "Chartered Accountant",
       "Hotel Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "accounting",
+      "sql",
+      "excel",
+      "communication",
+      "financial modelling",
+      "negotiation"
+    ],
+    "tags": [
+      "excel",
+      "accounting",
+      "sql",
+      "communication",
+      "financial_modelling",
+      "negotiation"
+    ],
+    "keywords": [
+      "business intelligence analyst",
+      "accounting",
+      "sql",
+      "excel",
+      "communication",
+      "financial modelling",
+      "negotiation"
+    ]
   },
   {
     "career_name": "MLOps Engineer",
@@ -1457,7 +2182,32 @@
       "Game Developer",
       "HVAC Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "javascript",
+      "data structures",
+      "microservices",
+      "git",
+      "sql",
+      "c++"
+    ],
+    "tags": [
+      "git",
+      "javascript",
+      "data_structures",
+      "microservices",
+      "sql",
+      "c++"
+    ],
+    "keywords": [
+      "mlops engineer",
+      "javascript",
+      "data structures",
+      "microservices",
+      "git",
+      "sql",
+      "c++"
+    ]
   },
   {
     "career_name": "BI Developer",
@@ -1506,7 +2256,32 @@
       "Thermal Engineer",
       "NLP Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "c++",
+      "linux",
+      "machine learning",
+      "kubernetes",
+      "python",
+      "java"
+    ],
+    "tags": [
+      "c++",
+      "linux",
+      "machine_learning",
+      "kubernetes",
+      "python",
+      "java"
+    ],
+    "keywords": [
+      "bi developer",
+      "c++",
+      "linux",
+      "machine learning",
+      "kubernetes",
+      "python",
+      "java"
+    ]
   },
   {
     "career_name": "Site Reliability Engineer (SRE)",
@@ -1555,7 +2330,32 @@
       "Site Reliability Engineer",
       "Network Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "python",
+      "data structures",
+      "javascript",
+      "aws",
+      "machine learning",
+      "kubernetes"
+    ],
+    "tags": [
+      "python",
+      "data_structures",
+      "javascript",
+      "aws",
+      "machine_learning",
+      "kubernetes"
+    ],
+    "keywords": [
+      "site reliability engineer (sre)",
+      "python",
+      "data structures",
+      "javascript",
+      "aws",
+      "machine learning",
+      "kubernetes"
+    ]
   },
   {
     "career_name": "Algorithm Engineer",
@@ -1604,7 +2404,32 @@
       "Transportation Engineer",
       "Control Systems Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "aws",
+      "data structures",
+      "linux",
+      "java",
+      "algorithms",
+      "microservices"
+    ],
+    "tags": [
+      "aws",
+      "data_structures",
+      "linux",
+      "java",
+      "algorithms",
+      "microservices"
+    ],
+    "keywords": [
+      "algorithm engineer",
+      "aws",
+      "data structures",
+      "linux",
+      "java",
+      "algorithms",
+      "microservices"
+    ]
   },
   {
     "career_name": "Product Engineer",
@@ -1653,7 +2478,32 @@
       "Data Scientist Specialist",
       "Plant Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "machine learning",
+      "azure",
+      "docker",
+      "linux",
+      "c++",
+      "git"
+    ],
+    "tags": [
+      "docker",
+      "git",
+      "machine_learning",
+      "azure",
+      "linux",
+      "c++"
+    ],
+    "keywords": [
+      "product engineer",
+      "machine learning",
+      "azure",
+      "docker",
+      "linux",
+      "c++",
+      "git"
+    ]
   },
   {
     "career_name": "Software Tester",
@@ -1702,7 +2552,32 @@
       "Data Scientist",
       "Structural Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "java",
+      "sql",
+      "machine learning",
+      "python",
+      "git",
+      "data structures"
+    ],
+    "tags": [
+      "git",
+      "java",
+      "sql",
+      "machine_learning",
+      "python",
+      "data_structures"
+    ],
+    "keywords": [
+      "software tester",
+      "java",
+      "sql",
+      "machine learning",
+      "python",
+      "git",
+      "data structures"
+    ]
   },
   {
     "career_name": "Release Engineer",
@@ -1751,7 +2626,32 @@
       "Network Engineer",
       "NLP Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "rest apis",
+      "aws",
+      "java",
+      "algorithms",
+      "data structures",
+      "git"
+    ],
+    "tags": [
+      "git",
+      "rest_apis",
+      "aws",
+      "java",
+      "algorithms",
+      "data_structures"
+    ],
+    "keywords": [
+      "release engineer",
+      "rest apis",
+      "aws",
+      "java",
+      "algorithms",
+      "data structures",
+      "git"
+    ]
   },
   {
     "career_name": "Technical Program Manager",
@@ -1798,7 +2698,32 @@
       "Marketing Manager",
       "Community Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "powerbi",
+      "financial modelling",
+      "negotiation",
+      "sql",
+      "communication",
+      "excel"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "financial_modelling",
+      "negotiation",
+      "sql",
+      "communication"
+    ],
+    "keywords": [
+      "technical program manager",
+      "powerbi",
+      "financial modelling",
+      "negotiation",
+      "sql",
+      "communication",
+      "excel"
+    ]
   },
   {
     "career_name": "Technical Writer",
@@ -1841,7 +2766,30 @@
       "Chef",
       "Video Editor"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "hand tools",
+      "machine operation",
+      "blueprint reading",
+      "soldering",
+      "welding"
+    ],
+    "tags": [
+      "hand_tools",
+      "machine_operation",
+      "blueprint_reading",
+      "soldering",
+      "welding",
+      "welding_kit"
+    ],
+    "keywords": [
+      "technical writer",
+      "hand tools",
+      "machine operation",
+      "blueprint reading",
+      "soldering",
+      "welding"
+    ]
   },
   {
     "career_name": "Platform Engineer",
@@ -1890,7 +2838,32 @@
       "Security Engineer",
       "Reliability Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "algorithms",
+      "microservices",
+      "aws",
+      "azure",
+      "python",
+      "data structures"
+    ],
+    "tags": [
+      "algorithms",
+      "microservices",
+      "aws",
+      "azure",
+      "python",
+      "data_structures"
+    ],
+    "keywords": [
+      "platform engineer",
+      "algorithms",
+      "microservices",
+      "aws",
+      "azure",
+      "python",
+      "data structures"
+    ]
   },
   {
     "career_name": "Mechanical Engineer",
@@ -1939,7 +2912,32 @@
       "Transportation Engineer",
       "Robotics Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "c++",
+      "algorithms",
+      "git",
+      "java",
+      "microservices",
+      "machine learning"
+    ],
+    "tags": [
+      "c++",
+      "algorithms",
+      "git",
+      "java",
+      "microservices",
+      "machine_learning"
+    ],
+    "keywords": [
+      "mechanical engineer",
+      "c++",
+      "algorithms",
+      "git",
+      "java",
+      "microservices",
+      "machine learning"
+    ]
   },
   {
     "career_name": "Design Engineer",
@@ -1988,7 +2986,32 @@
       "Robotics Engineer",
       "QA Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "rest apis",
+      "python",
+      "aws",
+      "data structures",
+      "javascript",
+      "sql"
+    ],
+    "tags": [
+      "rest_apis",
+      "python",
+      "aws",
+      "data_structures",
+      "javascript",
+      "sql"
+    ],
+    "keywords": [
+      "design engineer",
+      "rest apis",
+      "python",
+      "aws",
+      "data structures",
+      "javascript",
+      "sql"
+    ]
   },
   {
     "career_name": "Automotive Engineer",
@@ -2037,7 +3060,32 @@
       "AI Researcher Specialist",
       "Pipeline Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "algorithms",
+      "rest apis",
+      "python",
+      "microservices",
+      "machine learning",
+      "aws"
+    ],
+    "tags": [
+      "algorithms",
+      "rest_apis",
+      "python",
+      "microservices",
+      "machine_learning",
+      "aws"
+    ],
+    "keywords": [
+      "automotive engineer",
+      "algorithms",
+      "rest apis",
+      "python",
+      "microservices",
+      "machine learning",
+      "aws"
+    ]
   },
   {
     "career_name": "Aerospace Engineer",
@@ -2086,7 +3134,32 @@
       "Railway Engineer",
       "Blockchain Developer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "git",
+      "aws",
+      "rest apis",
+      "linux",
+      "python",
+      "azure"
+    ],
+    "tags": [
+      "git",
+      "aws",
+      "rest_apis",
+      "linux",
+      "python",
+      "azure"
+    ],
+    "keywords": [
+      "aerospace engineer",
+      "git",
+      "aws",
+      "rest apis",
+      "linux",
+      "python",
+      "azure"
+    ]
   },
   {
     "career_name": "Civil Engineer",
@@ -2135,7 +3208,32 @@
       "Backend Developer Specialist",
       "Big Data Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "aws",
+      "sql",
+      "azure",
+      "kubernetes",
+      "python",
+      "javascript"
+    ],
+    "tags": [
+      "aws",
+      "sql",
+      "azure",
+      "kubernetes",
+      "python",
+      "javascript"
+    ],
+    "keywords": [
+      "civil engineer",
+      "aws",
+      "sql",
+      "azure",
+      "kubernetes",
+      "python",
+      "javascript"
+    ]
   },
   {
     "career_name": "Structural Engineer",
@@ -2184,7 +3282,32 @@
       "Cloud Engineer",
       "Mobile App Developer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "c++",
+      "machine learning",
+      "sql",
+      "aws",
+      "docker",
+      "rest apis"
+    ],
+    "tags": [
+      "c++",
+      "machine_learning",
+      "sql",
+      "aws",
+      "docker",
+      "rest_apis"
+    ],
+    "keywords": [
+      "structural engineer",
+      "c++",
+      "machine learning",
+      "sql",
+      "aws",
+      "docker",
+      "rest apis"
+    ]
   },
   {
     "career_name": "Geotechnical Engineer",
@@ -2233,7 +3356,32 @@
       "Automotive Engineer",
       "Physiotherapist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "algorithms",
+      "javascript",
+      "java",
+      "kubernetes",
+      "microservices",
+      "sql"
+    ],
+    "tags": [
+      "algorithms",
+      "javascript",
+      "java",
+      "kubernetes",
+      "microservices",
+      "sql"
+    ],
+    "keywords": [
+      "geotechnical engineer",
+      "algorithms",
+      "javascript",
+      "java",
+      "kubernetes",
+      "microservices",
+      "sql"
+    ]
   },
   {
     "career_name": "Construction Project Manager",
@@ -2281,7 +3429,32 @@
       "Materials Scientist",
       "HVAC Technician"
     ],
-    "future_scope": "Evolving with technology and industry trends in Engineering."
+    "future_scope": "Evolving with technology and industry trends in Engineering.",
+    "interests": [
+      "plc",
+      "ansys",
+      "cad",
+      "dynamics",
+      "matlab",
+      "solidworks"
+    ],
+    "tags": [
+      "matlab",
+      "solidworks",
+      "plc",
+      "ansys",
+      "cad",
+      "dynamics"
+    ],
+    "keywords": [
+      "construction project manager",
+      "plc",
+      "ansys",
+      "cad",
+      "dynamics",
+      "matlab",
+      "solidworks"
+    ]
   },
   {
     "career_name": "Electrical Engineer",
@@ -2330,7 +3503,32 @@
       "Thermal Engineer",
       "Machine Learning Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "python",
+      "rest apis",
+      "c++",
+      "docker",
+      "azure",
+      "git"
+    ],
+    "tags": [
+      "docker",
+      "python",
+      "rest_apis",
+      "c++",
+      "azure",
+      "git"
+    ],
+    "keywords": [
+      "electrical engineer",
+      "python",
+      "rest apis",
+      "c++",
+      "docker",
+      "azure",
+      "git"
+    ]
   },
   {
     "career_name": "Power Systems Engineer",
@@ -2379,7 +3577,32 @@
       "Cloud Engineer",
       "Game Developer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "microservices",
+      "sql",
+      "kubernetes",
+      "machine learning",
+      "data structures",
+      "python"
+    ],
+    "tags": [
+      "microservices",
+      "sql",
+      "kubernetes",
+      "machine_learning",
+      "data_structures",
+      "python"
+    ],
+    "keywords": [
+      "power systems engineer",
+      "microservices",
+      "sql",
+      "kubernetes",
+      "machine learning",
+      "data structures",
+      "python"
+    ]
   },
   {
     "career_name": "Control Systems Engineer",
@@ -2428,7 +3651,32 @@
       "Marine Engineer",
       "Manufacturing Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "microservices",
+      "python",
+      "javascript",
+      "kubernetes",
+      "git",
+      "sql"
+    ],
+    "tags": [
+      "git",
+      "microservices",
+      "python",
+      "javascript",
+      "kubernetes",
+      "sql"
+    ],
+    "keywords": [
+      "control systems engineer",
+      "microservices",
+      "python",
+      "javascript",
+      "kubernetes",
+      "git",
+      "sql"
+    ]
   },
   {
     "career_name": "Electronics Engineer",
@@ -2477,7 +3725,32 @@
       "Structural Engineer",
       "Civil Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "git",
+      "linux",
+      "rest apis",
+      "c++",
+      "java",
+      "algorithms"
+    ],
+    "tags": [
+      "git",
+      "linux",
+      "rest_apis",
+      "c++",
+      "java",
+      "algorithms"
+    ],
+    "keywords": [
+      "electronics engineer",
+      "git",
+      "linux",
+      "rest apis",
+      "c++",
+      "java",
+      "algorithms"
+    ]
   },
   {
     "career_name": "Instrumentation Engineer",
@@ -2526,7 +3799,32 @@
       "Platform Engineer",
       "Software Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "microservices",
+      "rest apis",
+      "javascript",
+      "azure",
+      "docker",
+      "data structures"
+    ],
+    "tags": [
+      "docker",
+      "microservices",
+      "rest_apis",
+      "javascript",
+      "azure",
+      "data_structures"
+    ],
+    "keywords": [
+      "instrumentation engineer",
+      "microservices",
+      "rest apis",
+      "javascript",
+      "azure",
+      "docker",
+      "data structures"
+    ]
   },
   {
     "career_name": "Industrial Engineer",
@@ -2575,7 +3873,32 @@
       "Security Engineer",
       "Electrical Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "javascript",
+      "kubernetes",
+      "microservices",
+      "rest apis",
+      "sql",
+      "c++"
+    ],
+    "tags": [
+      "javascript",
+      "kubernetes",
+      "microservices",
+      "rest_apis",
+      "sql",
+      "c++"
+    ],
+    "keywords": [
+      "industrial engineer",
+      "javascript",
+      "kubernetes",
+      "microservices",
+      "rest apis",
+      "sql",
+      "c++"
+    ]
   },
   {
     "career_name": "Manufacturing Engineer",
@@ -2624,7 +3947,32 @@
       "Medical Data Analyst",
       "Algorithm Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "rest apis",
+      "git",
+      "azure",
+      "linux",
+      "javascript",
+      "python"
+    ],
+    "tags": [
+      "git",
+      "rest_apis",
+      "azure",
+      "linux",
+      "javascript",
+      "python"
+    ],
+    "keywords": [
+      "manufacturing engineer",
+      "rest apis",
+      "git",
+      "azure",
+      "linux",
+      "javascript",
+      "python"
+    ]
   },
   {
     "career_name": "Quality Engineer",
@@ -2673,7 +4021,32 @@
       "DevOps Engineer Specialist",
       "Game Developer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "azure",
+      "python",
+      "data structures",
+      "machine learning",
+      "rest apis",
+      "javascript"
+    ],
+    "tags": [
+      "azure",
+      "python",
+      "data_structures",
+      "machine_learning",
+      "rest_apis",
+      "javascript"
+    ],
+    "keywords": [
+      "quality engineer",
+      "azure",
+      "python",
+      "data structures",
+      "machine learning",
+      "rest apis",
+      "javascript"
+    ]
   },
   {
     "career_name": "Marine Engineer",
@@ -2722,7 +4095,32 @@
       "Cloud Engineer Specialist",
       "Railway Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "microservices",
+      "azure",
+      "machine learning",
+      "rest apis",
+      "sql",
+      "docker"
+    ],
+    "tags": [
+      "docker",
+      "microservices",
+      "azure",
+      "machine_learning",
+      "rest_apis",
+      "sql"
+    ],
+    "keywords": [
+      "marine engineer",
+      "microservices",
+      "azure",
+      "machine learning",
+      "rest apis",
+      "sql",
+      "docker"
+    ]
   },
   {
     "career_name": "Metallurgical Engineer",
@@ -2771,7 +4169,32 @@
       "Frontend Developer Specialist",
       "Mobile App Developer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "kubernetes",
+      "git",
+      "azure",
+      "c++",
+      "data structures",
+      "docker"
+    ],
+    "tags": [
+      "git",
+      "docker",
+      "kubernetes",
+      "azure",
+      "c++",
+      "data_structures"
+    ],
+    "keywords": [
+      "metallurgical engineer",
+      "kubernetes",
+      "git",
+      "azure",
+      "c++",
+      "data structures",
+      "docker"
+    ]
   },
   {
     "career_name": "Thermal Engineer",
@@ -2820,7 +4243,32 @@
       "Network Engineer",
       "Software Tester"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "git",
+      "javascript",
+      "data structures",
+      "sql",
+      "c++",
+      "aws"
+    ],
+    "tags": [
+      "git",
+      "javascript",
+      "data_structures",
+      "sql",
+      "c++",
+      "aws"
+    ],
+    "keywords": [
+      "thermal engineer",
+      "git",
+      "javascript",
+      "data structures",
+      "sql",
+      "c++",
+      "aws"
+    ]
   },
   {
     "career_name": "HVAC Engineer",
@@ -2869,7 +4317,32 @@
       "Materials Engineer",
       "Medical Data Analyst"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "rest apis",
+      "docker",
+      "python",
+      "java",
+      "azure",
+      "git"
+    ],
+    "tags": [
+      "docker",
+      "git",
+      "rest_apis",
+      "python",
+      "java",
+      "azure"
+    ],
+    "keywords": [
+      "hvac engineer",
+      "rest apis",
+      "docker",
+      "python",
+      "java",
+      "azure",
+      "git"
+    ]
   },
   {
     "career_name": "Transportation Engineer",
@@ -2918,7 +4391,32 @@
       "Automotive Engineer",
       "Supply Chain Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "kubernetes",
+      "aws",
+      "algorithms",
+      "machine learning",
+      "c++",
+      "azure"
+    ],
+    "tags": [
+      "kubernetes",
+      "aws",
+      "algorithms",
+      "machine_learning",
+      "c++",
+      "azure"
+    ],
+    "keywords": [
+      "transportation engineer",
+      "kubernetes",
+      "aws",
+      "algorithms",
+      "machine learning",
+      "c++",
+      "azure"
+    ]
   },
   {
     "career_name": "Railway Engineer",
@@ -2967,7 +4465,32 @@
       "Thermal Engineer",
       "Backend Developer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "microservices",
+      "rest apis",
+      "machine learning",
+      "python",
+      "docker",
+      "java"
+    ],
+    "tags": [
+      "docker",
+      "microservices",
+      "rest_apis",
+      "machine_learning",
+      "python",
+      "java"
+    ],
+    "keywords": [
+      "railway engineer",
+      "microservices",
+      "rest apis",
+      "machine learning",
+      "python",
+      "docker",
+      "java"
+    ]
   },
   {
     "career_name": "Pipeline Engineer",
@@ -3016,7 +4539,32 @@
       "HVAC Engineer",
       "DevOps Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "sql",
+      "docker",
+      "azure",
+      "javascript",
+      "aws",
+      "linux"
+    ],
+    "tags": [
+      "docker",
+      "sql",
+      "azure",
+      "javascript",
+      "aws",
+      "linux"
+    ],
+    "keywords": [
+      "pipeline engineer",
+      "sql",
+      "docker",
+      "azure",
+      "javascript",
+      "aws",
+      "linux"
+    ]
   },
   {
     "career_name": "Environmental Engineer",
@@ -3065,7 +4613,32 @@
       "Mechanical Engineer",
       "Nanotechnology Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "sql",
+      "azure",
+      "microservices",
+      "javascript",
+      "c++",
+      "linux"
+    ],
+    "tags": [
+      "sql",
+      "azure",
+      "microservices",
+      "javascript",
+      "c++",
+      "linux"
+    ],
+    "keywords": [
+      "environmental engineer",
+      "sql",
+      "azure",
+      "microservices",
+      "javascript",
+      "c++",
+      "linux"
+    ]
   },
   {
     "career_name": "Materials Engineer",
@@ -3114,7 +4687,32 @@
       "Reliability Engineer",
       "Data Scientist Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "azure",
+      "python",
+      "rest apis",
+      "java",
+      "machine learning",
+      "microservices"
+    ],
+    "tags": [
+      "azure",
+      "python",
+      "rest_apis",
+      "java",
+      "machine_learning",
+      "microservices"
+    ],
+    "keywords": [
+      "materials engineer",
+      "azure",
+      "python",
+      "rest apis",
+      "java",
+      "machine learning",
+      "microservices"
+    ]
   },
   {
     "career_name": "Mechatronics Engineer",
@@ -3163,7 +4761,32 @@
       "Game Developer",
       "Design Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "algorithms",
+      "rest apis",
+      "kubernetes",
+      "c++",
+      "linux",
+      "microservices"
+    ],
+    "tags": [
+      "algorithms",
+      "rest_apis",
+      "kubernetes",
+      "c++",
+      "linux",
+      "microservices"
+    ],
+    "keywords": [
+      "mechatronics engineer",
+      "algorithms",
+      "rest apis",
+      "kubernetes",
+      "c++",
+      "linux",
+      "microservices"
+    ]
   },
   {
     "career_name": "Reliability Engineer",
@@ -3212,7 +4835,32 @@
       "Design Engineer",
       "Full Stack Developer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "aws",
+      "java",
+      "linux",
+      "python",
+      "docker",
+      "kubernetes"
+    ],
+    "tags": [
+      "docker",
+      "aws",
+      "java",
+      "linux",
+      "python",
+      "kubernetes"
+    ],
+    "keywords": [
+      "reliability engineer",
+      "aws",
+      "java",
+      "linux",
+      "python",
+      "docker",
+      "kubernetes"
+    ]
   },
   {
     "career_name": "Nanotechnology Engineer",
@@ -3261,7 +4909,32 @@
       "Blockchain Developer Specialist",
       "AR/VR Developer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "linux",
+      "machine learning",
+      "javascript",
+      "python",
+      "rest apis",
+      "git"
+    ],
+    "tags": [
+      "git",
+      "linux",
+      "machine_learning",
+      "javascript",
+      "python",
+      "rest_apis"
+    ],
+    "keywords": [
+      "nanotechnology engineer",
+      "linux",
+      "machine learning",
+      "javascript",
+      "python",
+      "rest apis",
+      "git"
+    ]
   },
   {
     "career_name": "Automation Engineer",
@@ -3310,7 +4983,32 @@
       "Mechanical Engineer",
       "Software Tester"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "git",
+      "javascript",
+      "aws",
+      "kubernetes",
+      "algorithms",
+      "microservices"
+    ],
+    "tags": [
+      "git",
+      "javascript",
+      "aws",
+      "kubernetes",
+      "algorithms",
+      "microservices"
+    ],
+    "keywords": [
+      "automation engineer",
+      "git",
+      "javascript",
+      "aws",
+      "kubernetes",
+      "algorithms",
+      "microservices"
+    ]
   },
   {
     "career_name": "Plant Engineer",
@@ -3359,7 +5057,32 @@
       "Automation Engineer",
       "HVAC Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "machine learning",
+      "python",
+      "data structures",
+      "sql",
+      "azure",
+      "microservices"
+    ],
+    "tags": [
+      "machine_learning",
+      "python",
+      "data_structures",
+      "sql",
+      "azure",
+      "microservices"
+    ],
+    "keywords": [
+      "plant engineer",
+      "machine learning",
+      "python",
+      "data structures",
+      "sql",
+      "azure",
+      "microservices"
+    ]
   },
   {
     "career_name": "Doctor (MBBS)",
@@ -3403,7 +5126,32 @@
       "Public Health Specialist",
       "Radiologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "patient care",
+      "hipaa/compliance",
+      "medical ethics",
+      "clinical knowledge",
+      "pharmacology",
+      "diagnostics"
+    ],
+    "tags": [
+      "patient_care",
+      "hipaa/compliance",
+      "medical_ethics",
+      "clinical_knowledge",
+      "pharmacology",
+      "diagnostics"
+    ],
+    "keywords": [
+      "doctor (mbbs)",
+      "patient care",
+      "hipaa/compliance",
+      "medical ethics",
+      "clinical knowledge",
+      "pharmacology",
+      "diagnostics"
+    ]
   },
   {
     "career_name": "Surgeon",
@@ -3447,7 +5195,32 @@
       "Clinical Researcher",
       "Dentist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "medical ethics",
+      "hipaa/compliance",
+      "pharmacology",
+      "patient care",
+      "diagnostics",
+      "clinical knowledge"
+    ],
+    "tags": [
+      "medical_ethics",
+      "hipaa/compliance",
+      "pharmacology",
+      "patient_care",
+      "diagnostics",
+      "clinical_knowledge"
+    ],
+    "keywords": [
+      "surgeon",
+      "medical ethics",
+      "hipaa/compliance",
+      "pharmacology",
+      "patient care",
+      "diagnostics",
+      "clinical knowledge"
+    ]
   },
   {
     "career_name": "General Practitioner",
@@ -3490,7 +5263,30 @@
       "Pilot",
       "Entrepreneur"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "soldering",
+      "blueprint reading",
+      "machine operation",
+      "hand tools",
+      "welding"
+    ],
+    "tags": [
+      "soldering",
+      "blueprint_reading",
+      "machine_operation",
+      "hand_tools",
+      "welding",
+      "multimeter"
+    ],
+    "keywords": [
+      "general practitioner",
+      "soldering",
+      "blueprint reading",
+      "machine operation",
+      "hand tools",
+      "welding"
+    ]
   },
   {
     "career_name": "Pediatrician",
@@ -3533,7 +5329,30 @@
       "Geologist",
       "Content Strategist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "welding",
+      "blueprint reading"
+    ],
+    "tags": [
+      "machine_operation",
+      "hand_tools",
+      "soldering",
+      "welding",
+      "blueprint_reading",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "pediatrician",
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "welding",
+      "blueprint reading"
+    ]
   },
   {
     "career_name": "Psychiatrist",
@@ -3576,7 +5395,30 @@
       "Systems Architect Specialist",
       "Systems Architect"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "welding",
+      "hand tools",
+      "machine operation",
+      "blueprint reading",
+      "soldering"
+    ],
+    "tags": [
+      "welding",
+      "hand_tools",
+      "machine_operation",
+      "blueprint_reading",
+      "soldering",
+      "multimeter"
+    ],
+    "keywords": [
+      "psychiatrist",
+      "welding",
+      "hand tools",
+      "machine operation",
+      "blueprint reading",
+      "soldering"
+    ]
   },
   {
     "career_name": "Clinical Researcher",
@@ -3620,7 +5462,32 @@
       "Pathologist",
       "Epidemiologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "patient care",
+      "medical ethics",
+      "diagnostics",
+      "pharmacology",
+      "hipaa/compliance",
+      "clinical knowledge"
+    ],
+    "tags": [
+      "patient_care",
+      "medical_ethics",
+      "diagnostics",
+      "pharmacology",
+      "hipaa/compliance",
+      "clinical_knowledge"
+    ],
+    "keywords": [
+      "clinical researcher",
+      "patient care",
+      "medical ethics",
+      "diagnostics",
+      "pharmacology",
+      "hipaa/compliance",
+      "clinical knowledge"
+    ]
   },
   {
     "career_name": "Nurse",
@@ -3664,7 +5531,32 @@
       "Radiologist",
       "Occupational Therapist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "clinical knowledge",
+      "patient care",
+      "diagnostics",
+      "hipaa/compliance",
+      "medical ethics",
+      "pharmacology"
+    ],
+    "tags": [
+      "clinical_knowledge",
+      "patient_care",
+      "diagnostics",
+      "hipaa/compliance",
+      "medical_ethics",
+      "pharmacology"
+    ],
+    "keywords": [
+      "nurse",
+      "clinical knowledge",
+      "patient care",
+      "diagnostics",
+      "hipaa/compliance",
+      "medical ethics",
+      "pharmacology"
+    ]
   },
   {
     "career_name": "Physician Assistant",
@@ -3707,7 +5599,30 @@
       "Plumber",
       "Science Communicator"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "machine operation",
+      "welding",
+      "blueprint reading",
+      "soldering",
+      "hand tools"
+    ],
+    "tags": [
+      "machine_operation",
+      "welding",
+      "blueprint_reading",
+      "soldering",
+      "hand_tools",
+      "multimeter"
+    ],
+    "keywords": [
+      "physician assistant",
+      "machine operation",
+      "welding",
+      "blueprint reading",
+      "soldering",
+      "hand tools"
+    ]
   },
   {
     "career_name": "Pharmacist",
@@ -3751,7 +5666,32 @@
       "Pathologist",
       "Epidemiologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "patient care",
+      "medical ethics",
+      "clinical knowledge",
+      "pharmacology",
+      "diagnostics",
+      "hipaa/compliance"
+    ],
+    "tags": [
+      "patient_care",
+      "medical_ethics",
+      "clinical_knowledge",
+      "pharmacology",
+      "diagnostics",
+      "hipaa/compliance"
+    ],
+    "keywords": [
+      "pharmacist",
+      "patient care",
+      "medical ethics",
+      "clinical knowledge",
+      "pharmacology",
+      "diagnostics",
+      "hipaa/compliance"
+    ]
   },
   {
     "career_name": "Dentist",
@@ -3795,7 +5735,32 @@
       "Occupational Therapist",
       "Epidemiologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "diagnostics",
+      "clinical knowledge",
+      "patient care",
+      "hipaa/compliance",
+      "pharmacology",
+      "medical ethics"
+    ],
+    "tags": [
+      "diagnostics",
+      "clinical_knowledge",
+      "patient_care",
+      "hipaa/compliance",
+      "pharmacology",
+      "medical_ethics"
+    ],
+    "keywords": [
+      "dentist",
+      "diagnostics",
+      "clinical knowledge",
+      "patient care",
+      "hipaa/compliance",
+      "pharmacology",
+      "medical ethics"
+    ]
   },
   {
     "career_name": "Radiologist",
@@ -3839,7 +5804,32 @@
       "Clinical Scientist",
       "Doctor (MBBS)"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "pharmacology",
+      "patient care",
+      "diagnostics",
+      "hipaa/compliance",
+      "medical ethics",
+      "clinical knowledge"
+    ],
+    "tags": [
+      "pharmacology",
+      "patient_care",
+      "diagnostics",
+      "hipaa/compliance",
+      "medical_ethics",
+      "clinical_knowledge"
+    ],
+    "keywords": [
+      "radiologist",
+      "pharmacology",
+      "patient care",
+      "diagnostics",
+      "hipaa/compliance",
+      "medical ethics",
+      "clinical knowledge"
+    ]
   },
   {
     "career_name": "Pathologist",
@@ -3883,7 +5873,32 @@
       "Clinical Scientist",
       "Medical Laboratory Scientist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "medical ethics",
+      "pharmacology",
+      "hipaa/compliance",
+      "diagnostics",
+      "patient care",
+      "clinical knowledge"
+    ],
+    "tags": [
+      "medical_ethics",
+      "pharmacology",
+      "hipaa/compliance",
+      "diagnostics",
+      "patient_care",
+      "clinical_knowledge"
+    ],
+    "keywords": [
+      "pathologist",
+      "medical ethics",
+      "pharmacology",
+      "hipaa/compliance",
+      "diagnostics",
+      "patient care",
+      "clinical knowledge"
+    ]
   },
   {
     "career_name": "Anesthesiologist",
@@ -3926,7 +5941,30 @@
       "Geologist",
       "Technical Writer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "soldering",
+      "welding",
+      "blueprint reading",
+      "machine operation",
+      "hand tools"
+    ],
+    "tags": [
+      "soldering",
+      "welding",
+      "blueprint_reading",
+      "machine_operation",
+      "hand_tools",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "anesthesiologist",
+      "soldering",
+      "welding",
+      "blueprint reading",
+      "machine operation",
+      "hand tools"
+    ]
   },
   {
     "career_name": "Medical Laboratory Scientist",
@@ -3970,7 +6008,32 @@
       "Radiologist",
       "Occupational Therapist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "clinical knowledge",
+      "patient care",
+      "diagnostics",
+      "hipaa/compliance",
+      "pharmacology",
+      "medical ethics"
+    ],
+    "tags": [
+      "clinical_knowledge",
+      "patient_care",
+      "diagnostics",
+      "hipaa/compliance",
+      "pharmacology",
+      "medical_ethics"
+    ],
+    "keywords": [
+      "medical laboratory scientist",
+      "clinical knowledge",
+      "patient care",
+      "diagnostics",
+      "hipaa/compliance",
+      "pharmacology",
+      "medical ethics"
+    ]
   },
   {
     "career_name": "Public Health Specialist",
@@ -4014,7 +6077,32 @@
       "Pathologist",
       "Pharmacist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "patient care",
+      "clinical knowledge",
+      "hipaa/compliance",
+      "medical ethics",
+      "pharmacology",
+      "diagnostics"
+    ],
+    "tags": [
+      "patient_care",
+      "clinical_knowledge",
+      "hipaa/compliance",
+      "medical_ethics",
+      "pharmacology",
+      "diagnostics"
+    ],
+    "keywords": [
+      "public health specialist",
+      "patient care",
+      "clinical knowledge",
+      "hipaa/compliance",
+      "medical ethics",
+      "pharmacology",
+      "diagnostics"
+    ]
   },
   {
     "career_name": "Epidemiologist",
@@ -4058,7 +6146,32 @@
       "Clinical Scientist",
       "Nurse"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "diagnostics",
+      "medical ethics",
+      "patient care",
+      "clinical knowledge",
+      "hipaa/compliance",
+      "pharmacology"
+    ],
+    "tags": [
+      "diagnostics",
+      "medical_ethics",
+      "patient_care",
+      "clinical_knowledge",
+      "hipaa/compliance",
+      "pharmacology"
+    ],
+    "keywords": [
+      "epidemiologist",
+      "diagnostics",
+      "medical ethics",
+      "patient care",
+      "clinical knowledge",
+      "hipaa/compliance",
+      "pharmacology"
+    ]
   },
   {
     "career_name": "Physiotherapist",
@@ -4107,7 +6220,32 @@
       "Trainer",
       "Game Artist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "data structures",
+      "c++",
+      "python",
+      "javascript",
+      "aws",
+      "linux"
+    ],
+    "tags": [
+      "data_structures",
+      "c++",
+      "python",
+      "javascript",
+      "aws",
+      "linux"
+    ],
+    "keywords": [
+      "physiotherapist",
+      "data structures",
+      "c++",
+      "python",
+      "javascript",
+      "aws",
+      "linux"
+    ]
   },
   {
     "career_name": "Occupational Therapist",
@@ -4151,7 +6289,32 @@
       "Pathologist",
       "Nurse"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "patient care",
+      "clinical knowledge",
+      "diagnostics",
+      "pharmacology",
+      "hipaa/compliance",
+      "medical ethics"
+    ],
+    "tags": [
+      "patient_care",
+      "clinical_knowledge",
+      "diagnostics",
+      "pharmacology",
+      "hipaa/compliance",
+      "medical_ethics"
+    ],
+    "keywords": [
+      "occupational therapist",
+      "patient care",
+      "clinical knowledge",
+      "diagnostics",
+      "pharmacology",
+      "hipaa/compliance",
+      "medical ethics"
+    ]
   },
   {
     "career_name": "Nutritionist",
@@ -4194,7 +6357,30 @@
       "Physician Assistant",
       "Pediatrician"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "machine operation",
+      "soldering",
+      "welding",
+      "blueprint reading",
+      "hand tools"
+    ],
+    "tags": [
+      "machine_operation",
+      "soldering",
+      "welding",
+      "blueprint_reading",
+      "hand_tools",
+      "multimeter"
+    ],
+    "keywords": [
+      "nutritionist",
+      "machine operation",
+      "soldering",
+      "welding",
+      "blueprint reading",
+      "hand tools"
+    ]
   },
   {
     "career_name": "Medical Data Analyst",
@@ -4243,7 +6429,32 @@
       "Full Stack Developer Specialist",
       "Cloud Architect Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "microservices",
+      "azure",
+      "machine learning",
+      "data structures",
+      "sql",
+      "javascript"
+    ],
+    "tags": [
+      "microservices",
+      "azure",
+      "machine_learning",
+      "data_structures",
+      "sql",
+      "javascript"
+    ],
+    "keywords": [
+      "medical data analyst",
+      "microservices",
+      "azure",
+      "machine learning",
+      "data structures",
+      "sql",
+      "javascript"
+    ]
   },
   {
     "career_name": "Biotechnologist",
@@ -4292,7 +6503,32 @@
       "Cloud Architect",
       "Thermal Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "azure",
+      "c++",
+      "linux",
+      "rest apis",
+      "microservices",
+      "python"
+    ],
+    "tags": [
+      "azure",
+      "c++",
+      "linux",
+      "rest_apis",
+      "microservices",
+      "python"
+    ],
+    "keywords": [
+      "biotechnologist",
+      "azure",
+      "c++",
+      "linux",
+      "rest apis",
+      "microservices",
+      "python"
+    ]
   },
   {
     "career_name": "Geneticist",
@@ -4339,7 +6575,32 @@
       "Microbiologist",
       "Chemist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "experiment design",
+      "data analysis",
+      "scientific writing",
+      "r",
+      "statistical methods",
+      "lab techniques"
+    ],
+    "tags": [
+      "experiment_design",
+      "data_analysis",
+      "scientific_writing",
+      "r",
+      "statistical_methods",
+      "lab_techniques"
+    ],
+    "keywords": [
+      "geneticist",
+      "experiment design",
+      "data analysis",
+      "scientific writing",
+      "r",
+      "statistical methods",
+      "lab techniques"
+    ]
   },
   {
     "career_name": "Microbiologist",
@@ -4386,7 +6647,32 @@
       "Oceanographer",
       "Agricultural Scientist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "r",
+      "lab techniques",
+      "statistical methods",
+      "python",
+      "data analysis",
+      "experiment design"
+    ],
+    "tags": [
+      "r",
+      "lab_techniques",
+      "statistical_methods",
+      "python",
+      "data_analysis",
+      "experiment_design"
+    ],
+    "keywords": [
+      "microbiologist",
+      "r",
+      "lab techniques",
+      "statistical methods",
+      "python",
+      "data analysis",
+      "experiment design"
+    ]
   },
   {
     "career_name": "Chemist",
@@ -4433,7 +6719,32 @@
       "Research Scientist",
       "Physicist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "lab techniques",
+      "python",
+      "scientific writing",
+      "data analysis",
+      "r",
+      "statistical methods"
+    ],
+    "tags": [
+      "lab_techniques",
+      "python",
+      "scientific_writing",
+      "data_analysis",
+      "r",
+      "statistical_methods"
+    ],
+    "keywords": [
+      "chemist",
+      "lab techniques",
+      "python",
+      "scientific writing",
+      "data analysis",
+      "r",
+      "statistical methods"
+    ]
   },
   {
     "career_name": "Physicist",
@@ -4480,7 +6791,32 @@
       "Astronomer",
       "Microbiologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "python",
+      "scientific writing",
+      "data analysis",
+      "lab techniques",
+      "statistical methods",
+      "r"
+    ],
+    "tags": [
+      "python",
+      "scientific_writing",
+      "data_analysis",
+      "lab_techniques",
+      "statistical_methods",
+      "r"
+    ],
+    "keywords": [
+      "physicist",
+      "python",
+      "scientific writing",
+      "data analysis",
+      "lab techniques",
+      "statistical methods",
+      "r"
+    ]
   },
   {
     "career_name": "Research Scientist",
@@ -4527,7 +6863,32 @@
       "Microbiologist",
       "Academic Researcher"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "data analysis",
+      "scientific writing",
+      "experiment design",
+      "lab techniques",
+      "statistical methods",
+      "r"
+    ],
+    "tags": [
+      "data_analysis",
+      "scientific_writing",
+      "experiment_design",
+      "lab_techniques",
+      "statistical_methods",
+      "r"
+    ],
+    "keywords": [
+      "research scientist",
+      "data analysis",
+      "scientific writing",
+      "experiment design",
+      "lab techniques",
+      "statistical methods",
+      "r"
+    ]
   },
   {
     "career_name": "Environmental Scientist",
@@ -4574,7 +6935,32 @@
       "Academic Researcher",
       "Research Associate"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "r",
+      "lab techniques",
+      "statistical methods",
+      "data analysis",
+      "experiment design",
+      "scientific writing"
+    ],
+    "tags": [
+      "r",
+      "lab_techniques",
+      "statistical_methods",
+      "data_analysis",
+      "experiment_design",
+      "scientific_writing"
+    ],
+    "keywords": [
+      "environmental scientist",
+      "r",
+      "lab techniques",
+      "statistical methods",
+      "data analysis",
+      "experiment design",
+      "scientific writing"
+    ]
   },
   {
     "career_name": "Oceanographer",
@@ -4621,7 +7007,32 @@
       "Academic Researcher",
       "Astronomer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "python",
+      "data analysis",
+      "scientific writing",
+      "r",
+      "lab techniques",
+      "experiment design"
+    ],
+    "tags": [
+      "python",
+      "data_analysis",
+      "scientific_writing",
+      "r",
+      "lab_techniques",
+      "experiment_design"
+    ],
+    "keywords": [
+      "oceanographer",
+      "python",
+      "data analysis",
+      "scientific writing",
+      "r",
+      "lab techniques",
+      "experiment design"
+    ]
   },
   {
     "career_name": "Astronomer",
@@ -4668,7 +7079,32 @@
       "Forensic Scientist",
       "Geneticist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "r",
+      "lab techniques",
+      "python",
+      "scientific writing",
+      "statistical methods",
+      "experiment design"
+    ],
+    "tags": [
+      "r",
+      "lab_techniques",
+      "python",
+      "scientific_writing",
+      "statistical_methods",
+      "experiment_design"
+    ],
+    "keywords": [
+      "astronomer",
+      "r",
+      "lab techniques",
+      "python",
+      "scientific writing",
+      "statistical methods",
+      "experiment design"
+    ]
   },
   {
     "career_name": "Materials Scientist",
@@ -4716,7 +7152,32 @@
       "Construction Project Manager",
       "HVAC Technician"
     ],
-    "future_scope": "Evolving with technology and industry trends in Engineering."
+    "future_scope": "Evolving with technology and industry trends in Engineering.",
+    "interests": [
+      "thermodynamics",
+      "dynamics",
+      "ansys",
+      "plc",
+      "matlab",
+      "statics"
+    ],
+    "tags": [
+      "matlab",
+      "thermodynamics",
+      "dynamics",
+      "ansys",
+      "plc",
+      "statics"
+    ],
+    "keywords": [
+      "materials scientist",
+      "thermodynamics",
+      "dynamics",
+      "ansys",
+      "plc",
+      "matlab",
+      "statics"
+    ]
   },
   {
     "career_name": "Clinical Scientist",
@@ -4760,7 +7221,32 @@
       "Pharmacist",
       "Epidemiologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Healthcare."
+    "future_scope": "Evolving with technology and industry trends in Healthcare.",
+    "interests": [
+      "patient care",
+      "hipaa/compliance",
+      "diagnostics",
+      "clinical knowledge",
+      "medical ethics",
+      "pharmacology"
+    ],
+    "tags": [
+      "patient_care",
+      "hipaa/compliance",
+      "diagnostics",
+      "clinical_knowledge",
+      "medical_ethics",
+      "pharmacology"
+    ],
+    "keywords": [
+      "clinical scientist",
+      "patient care",
+      "hipaa/compliance",
+      "diagnostics",
+      "clinical knowledge",
+      "medical ethics",
+      "pharmacology"
+    ]
   },
   {
     "career_name": "Food Scientist",
@@ -4807,7 +7293,32 @@
       "Forensic Scientist",
       "Astronomer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "statistical methods",
+      "lab techniques",
+      "scientific writing",
+      "experiment design",
+      "python",
+      "data analysis"
+    ],
+    "tags": [
+      "statistical_methods",
+      "lab_techniques",
+      "scientific_writing",
+      "experiment_design",
+      "python",
+      "data_analysis"
+    ],
+    "keywords": [
+      "food scientist",
+      "statistical methods",
+      "lab techniques",
+      "scientific writing",
+      "experiment design",
+      "python",
+      "data analysis"
+    ]
   },
   {
     "career_name": "Hydrologist",
@@ -4850,7 +7361,30 @@
       "Anesthesiologist",
       "Welder"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "blueprint reading",
+      "hand tools",
+      "machine operation",
+      "soldering",
+      "welding"
+    ],
+    "tags": [
+      "blueprint_reading",
+      "hand_tools",
+      "machine_operation",
+      "soldering",
+      "welding",
+      "multimeter"
+    ],
+    "keywords": [
+      "hydrologist",
+      "blueprint reading",
+      "hand tools",
+      "machine operation",
+      "soldering",
+      "welding"
+    ]
   },
   {
     "career_name": "Ecologist",
@@ -4893,7 +7427,30 @@
       "Cinematographer",
       "Art Director"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "welding",
+      "machine operation",
+      "soldering",
+      "blueprint reading",
+      "hand tools"
+    ],
+    "tags": [
+      "welding",
+      "machine_operation",
+      "soldering",
+      "blueprint_reading",
+      "hand_tools",
+      "welding_kit"
+    ],
+    "keywords": [
+      "ecologist",
+      "welding",
+      "machine operation",
+      "soldering",
+      "blueprint reading",
+      "hand tools"
+    ]
   },
   {
     "career_name": "Statistician",
@@ -4936,7 +7493,30 @@
       "Physician Assistant",
       "Digital Marketer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "welding",
+      "soldering",
+      "hand tools",
+      "blueprint reading",
+      "machine operation"
+    ],
+    "tags": [
+      "welding",
+      "soldering",
+      "hand_tools",
+      "blueprint_reading",
+      "machine_operation",
+      "multimeter"
+    ],
+    "keywords": [
+      "statistician",
+      "welding",
+      "soldering",
+      "hand tools",
+      "blueprint reading",
+      "machine operation"
+    ]
   },
   {
     "career_name": "Research Associate",
@@ -4983,7 +7563,32 @@
       "Forensic Scientist",
       "Oceanographer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "experiment design",
+      "python",
+      "statistical methods",
+      "lab techniques",
+      "scientific writing",
+      "r"
+    ],
+    "tags": [
+      "experiment_design",
+      "python",
+      "statistical_methods",
+      "lab_techniques",
+      "scientific_writing",
+      "r"
+    ],
+    "keywords": [
+      "research associate",
+      "experiment design",
+      "python",
+      "statistical methods",
+      "lab techniques",
+      "scientific writing",
+      "r"
+    ]
   },
   {
     "career_name": "Lab Manager",
@@ -5030,7 +7635,32 @@
       "Hotel Manager",
       "Community Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "accounting",
+      "powerbi",
+      "excel",
+      "negotiation",
+      "communication",
+      "sql"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "accounting",
+      "negotiation",
+      "communication",
+      "sql"
+    ],
+    "keywords": [
+      "lab manager",
+      "accounting",
+      "powerbi",
+      "excel",
+      "negotiation",
+      "communication",
+      "sql"
+    ]
   },
   {
     "career_name": "Science Communicator",
@@ -5073,7 +7703,30 @@
       "Video Editor",
       "Statistician"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "blueprint reading",
+      "hand tools",
+      "welding",
+      "soldering",
+      "machine operation"
+    ],
+    "tags": [
+      "blueprint_reading",
+      "hand_tools",
+      "welding",
+      "soldering",
+      "machine_operation",
+      "welding_kit"
+    ],
+    "keywords": [
+      "science communicator",
+      "blueprint reading",
+      "hand tools",
+      "welding",
+      "soldering",
+      "machine operation"
+    ]
   },
   {
     "career_name": "Geologist",
@@ -5116,7 +7769,30 @@
       "Entrepreneur",
       "Hydrologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "blueprint reading",
+      "welding",
+      "soldering",
+      "hand tools",
+      "machine operation"
+    ],
+    "tags": [
+      "blueprint_reading",
+      "welding",
+      "soldering",
+      "hand_tools",
+      "machine_operation",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "geologist",
+      "blueprint reading",
+      "welding",
+      "soldering",
+      "hand tools",
+      "machine operation"
+    ]
   },
   {
     "career_name": "Forensic Scientist",
@@ -5163,7 +7839,32 @@
       "Research Associate",
       "Physicist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "data analysis",
+      "lab techniques",
+      "scientific writing",
+      "r",
+      "statistical methods",
+      "experiment design"
+    ],
+    "tags": [
+      "data_analysis",
+      "lab_techniques",
+      "scientific_writing",
+      "r",
+      "statistical_methods",
+      "experiment_design"
+    ],
+    "keywords": [
+      "forensic scientist",
+      "data analysis",
+      "lab techniques",
+      "scientific writing",
+      "r",
+      "statistical methods",
+      "experiment design"
+    ]
   },
   {
     "career_name": "Chartered Accountant",
@@ -5210,7 +7911,32 @@
       "Business Intelligence Analyst",
       "Project Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "sql",
+      "negotiation",
+      "excel",
+      "powerbi",
+      "communication",
+      "financial modelling"
+    ],
+    "tags": [
+      "excel",
+      "powerbi",
+      "sql",
+      "negotiation",
+      "communication",
+      "financial_modelling"
+    ],
+    "keywords": [
+      "chartered accountant",
+      "sql",
+      "negotiation",
+      "excel",
+      "powerbi",
+      "communication",
+      "financial modelling"
+    ]
   },
   {
     "career_name": "Financial Analyst",
@@ -5257,7 +7983,32 @@
       "Chartered Accountant",
       "Community Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "communication",
+      "sql",
+      "powerbi",
+      "financial modelling",
+      "excel",
+      "negotiation"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "communication",
+      "sql",
+      "financial_modelling",
+      "negotiation"
+    ],
+    "keywords": [
+      "financial analyst",
+      "communication",
+      "sql",
+      "powerbi",
+      "financial modelling",
+      "excel",
+      "negotiation"
+    ]
   },
   {
     "career_name": "Investment Banker",
@@ -5304,7 +8055,32 @@
       "Operations Manager",
       "Technical Program Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "accounting",
+      "powerbi",
+      "excel",
+      "financial modelling",
+      "sql",
+      "negotiation"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "accounting",
+      "financial_modelling",
+      "sql",
+      "negotiation"
+    ],
+    "keywords": [
+      "investment banker",
+      "accounting",
+      "powerbi",
+      "excel",
+      "financial modelling",
+      "sql",
+      "negotiation"
+    ]
   },
   {
     "career_name": "Wealth Manager",
@@ -5351,7 +8127,32 @@
       "Project Manager",
       "Management Consultant"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "sql",
+      "powerbi",
+      "financial modelling",
+      "communication",
+      "accounting",
+      "excel"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "sql",
+      "financial_modelling",
+      "communication",
+      "accounting"
+    ],
+    "keywords": [
+      "wealth manager",
+      "sql",
+      "powerbi",
+      "financial modelling",
+      "communication",
+      "accounting",
+      "excel"
+    ]
   },
   {
     "career_name": "Actuary",
@@ -5398,7 +8199,32 @@
       "Educational Consultant",
       "Marketing Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "sql",
+      "communication",
+      "accounting",
+      "negotiation",
+      "powerbi",
+      "excel"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "sql",
+      "communication",
+      "accounting",
+      "negotiation"
+    ],
+    "keywords": [
+      "actuary",
+      "sql",
+      "communication",
+      "accounting",
+      "negotiation",
+      "powerbi",
+      "excel"
+    ]
   },
   {
     "career_name": "Management Consultant",
@@ -5445,7 +8271,32 @@
       "Actuary",
       "Community Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "accounting",
+      "sql",
+      "financial modelling",
+      "negotiation",
+      "excel",
+      "communication"
+    ],
+    "tags": [
+      "excel",
+      "accounting",
+      "sql",
+      "financial_modelling",
+      "negotiation",
+      "communication"
+    ],
+    "keywords": [
+      "management consultant",
+      "accounting",
+      "sql",
+      "financial modelling",
+      "negotiation",
+      "excel",
+      "communication"
+    ]
   },
   {
     "career_name": "Operations Manager",
@@ -5492,7 +8343,32 @@
       "Business Intelligence Analyst",
       "Product Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "accounting",
+      "sql",
+      "financial modelling",
+      "negotiation",
+      "communication",
+      "powerbi"
+    ],
+    "tags": [
+      "powerbi",
+      "accounting",
+      "sql",
+      "financial_modelling",
+      "negotiation",
+      "communication"
+    ],
+    "keywords": [
+      "operations manager",
+      "accounting",
+      "sql",
+      "financial modelling",
+      "negotiation",
+      "communication",
+      "powerbi"
+    ]
   },
   {
     "career_name": "HR Manager",
@@ -5539,7 +8415,32 @@
       "Cybersecurity Analyst",
       "Procurement Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "powerbi",
+      "financial modelling",
+      "sql",
+      "accounting",
+      "excel",
+      "communication"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "financial_modelling",
+      "sql",
+      "accounting",
+      "communication"
+    ],
+    "keywords": [
+      "hr manager",
+      "powerbi",
+      "financial modelling",
+      "sql",
+      "accounting",
+      "excel",
+      "communication"
+    ]
   },
   {
     "career_name": "Recruiter",
@@ -5586,7 +8487,32 @@
       "Illustrator",
       "Tour Guide"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "figma",
+      "sketch",
+      "storyboarding",
+      "photography",
+      "illustrator",
+      "after effects"
+    ],
+    "tags": [
+      "figma",
+      "illustrator",
+      "sketch",
+      "storyboarding",
+      "photography",
+      "after_effects"
+    ],
+    "keywords": [
+      "recruiter",
+      "figma",
+      "sketch",
+      "storyboarding",
+      "photography",
+      "illustrator",
+      "after effects"
+    ]
   },
   {
     "career_name": "Marketing Manager",
@@ -5633,7 +8559,32 @@
       "Lawyer",
       "Educational Consultant"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "financial modelling",
+      "sql",
+      "communication",
+      "accounting",
+      "excel",
+      "powerbi"
+    ],
+    "tags": [
+      "excel",
+      "powerbi",
+      "financial_modelling",
+      "sql",
+      "communication",
+      "accounting"
+    ],
+    "keywords": [
+      "marketing manager",
+      "financial modelling",
+      "sql",
+      "communication",
+      "accounting",
+      "excel",
+      "powerbi"
+    ]
   },
   {
     "career_name": "Digital Marketer",
@@ -5676,7 +8627,30 @@
       "Real Estate Agent",
       "Startup Founder"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "blueprint reading",
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "welding"
+    ],
+    "tags": [
+      "blueprint_reading",
+      "machine_operation",
+      "hand_tools",
+      "soldering",
+      "welding",
+      "multimeter"
+    ],
+    "keywords": [
+      "digital marketer",
+      "blueprint reading",
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "welding"
+    ]
   },
   {
     "career_name": "Content Strategist",
@@ -5719,7 +8693,30 @@
       "Horticulturist",
       "Real Estate Agent"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "hand tools",
+      "machine operation",
+      "blueprint reading",
+      "soldering",
+      "welding"
+    ],
+    "tags": [
+      "hand_tools",
+      "machine_operation",
+      "blueprint_reading",
+      "soldering",
+      "welding",
+      "multimeter"
+    ],
+    "keywords": [
+      "content strategist",
+      "hand tools",
+      "machine operation",
+      "blueprint reading",
+      "soldering",
+      "welding"
+    ]
   },
   {
     "career_name": "Product Manager",
@@ -5766,7 +8763,32 @@
       "Hotel Manager",
       "Lab Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "accounting",
+      "financial modelling",
+      "communication",
+      "excel",
+      "sql",
+      "negotiation"
+    ],
+    "tags": [
+      "excel",
+      "accounting",
+      "financial_modelling",
+      "communication",
+      "sql",
+      "negotiation"
+    ],
+    "keywords": [
+      "product manager",
+      "accounting",
+      "financial modelling",
+      "communication",
+      "excel",
+      "sql",
+      "negotiation"
+    ]
   },
   {
     "career_name": "Business Analyst",
@@ -5813,7 +8835,32 @@
       "Corporate Lawyer",
       "Procurement Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "accounting",
+      "negotiation",
+      "financial modelling",
+      "excel",
+      "communication",
+      "powerbi"
+    ],
+    "tags": [
+      "excel",
+      "powerbi",
+      "accounting",
+      "negotiation",
+      "financial_modelling",
+      "communication"
+    ],
+    "keywords": [
+      "business analyst",
+      "accounting",
+      "negotiation",
+      "financial modelling",
+      "excel",
+      "communication",
+      "powerbi"
+    ]
   },
   {
     "career_name": "Project Manager",
@@ -5860,7 +8907,32 @@
       "Hotel Manager",
       "Corporate Lawyer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "financial modelling",
+      "negotiation",
+      "sql",
+      "accounting",
+      "excel",
+      "powerbi"
+    ],
+    "tags": [
+      "excel",
+      "powerbi",
+      "financial_modelling",
+      "negotiation",
+      "sql",
+      "accounting"
+    ],
+    "keywords": [
+      "project manager",
+      "financial modelling",
+      "negotiation",
+      "sql",
+      "accounting",
+      "excel",
+      "powerbi"
+    ]
   },
   {
     "career_name": "Supply Chain Manager",
@@ -5909,7 +8981,32 @@
       "Marine Engineer",
       "Design Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "rest apis",
+      "javascript",
+      "git",
+      "python",
+      "microservices",
+      "sql"
+    ],
+    "tags": [
+      "git",
+      "rest_apis",
+      "javascript",
+      "python",
+      "microservices",
+      "sql"
+    ],
+    "keywords": [
+      "supply chain manager",
+      "rest apis",
+      "javascript",
+      "git",
+      "python",
+      "microservices",
+      "sql"
+    ]
   },
   {
     "career_name": "Procurement Manager",
@@ -5956,7 +9053,32 @@
       "Cybersecurity Analyst",
       "Investment Banker"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "financial modelling",
+      "excel",
+      "accounting",
+      "communication",
+      "powerbi",
+      "negotiation"
+    ],
+    "tags": [
+      "excel",
+      "powerbi",
+      "financial_modelling",
+      "accounting",
+      "communication",
+      "negotiation"
+    ],
+    "keywords": [
+      "procurement manager",
+      "financial modelling",
+      "excel",
+      "accounting",
+      "communication",
+      "powerbi",
+      "negotiation"
+    ]
   },
   {
     "career_name": "Lawyer",
@@ -6003,7 +9125,32 @@
       "Technical Program Manager",
       "Cybersecurity Analyst"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "accounting",
+      "powerbi",
+      "financial modelling",
+      "excel",
+      "communication",
+      "sql"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "accounting",
+      "financial_modelling",
+      "communication",
+      "sql"
+    ],
+    "keywords": [
+      "lawyer",
+      "accounting",
+      "powerbi",
+      "financial modelling",
+      "excel",
+      "communication",
+      "sql"
+    ]
   },
   {
     "career_name": "Corporate Lawyer",
@@ -6050,7 +9197,32 @@
       "Technical Program Manager",
       "Community Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "sql",
+      "powerbi",
+      "communication",
+      "negotiation",
+      "excel",
+      "accounting"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "sql",
+      "communication",
+      "negotiation",
+      "accounting"
+    ],
+    "keywords": [
+      "corporate lawyer",
+      "sql",
+      "powerbi",
+      "communication",
+      "negotiation",
+      "excel",
+      "accounting"
+    ]
   },
   {
     "career_name": "Legal Consultant",
@@ -6097,7 +9269,32 @@
       "Community Manager",
       "Management Consultant"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "excel",
+      "accounting",
+      "sql",
+      "communication",
+      "financial modelling",
+      "powerbi"
+    ],
+    "tags": [
+      "excel",
+      "powerbi",
+      "accounting",
+      "sql",
+      "communication",
+      "financial_modelling"
+    ],
+    "keywords": [
+      "legal consultant",
+      "excel",
+      "accounting",
+      "sql",
+      "communication",
+      "financial modelling",
+      "powerbi"
+    ]
   },
   {
     "career_name": "Graphic Designer",
@@ -6144,7 +9341,32 @@
       "UX/UI Designer",
       "Photographer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "figma",
+      "illustrator",
+      "adobe photoshop",
+      "photography",
+      "storyboarding",
+      "after effects"
+    ],
+    "tags": [
+      "figma",
+      "illustrator",
+      "adobe_photoshop",
+      "photography",
+      "storyboarding",
+      "after_effects"
+    ],
+    "keywords": [
+      "graphic designer",
+      "figma",
+      "illustrator",
+      "adobe photoshop",
+      "photography",
+      "storyboarding",
+      "after effects"
+    ]
   },
   {
     "career_name": "UX/UI Designer",
@@ -6191,7 +9413,32 @@
       "Recruiter",
       "Instructional Designer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "photography",
+      "after effects",
+      "storyboarding",
+      "sketch",
+      "figma",
+      "illustrator"
+    ],
+    "tags": [
+      "figma",
+      "illustrator",
+      "photography",
+      "after_effects",
+      "storyboarding",
+      "sketch"
+    ],
+    "keywords": [
+      "ux/ui designer",
+      "photography",
+      "after effects",
+      "storyboarding",
+      "sketch",
+      "figma",
+      "illustrator"
+    ]
   },
   {
     "career_name": "Fashion Designer",
@@ -6238,7 +9485,32 @@
       "Graphic Designer",
       "Fine Artist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "figma",
+      "photography",
+      "after effects",
+      "illustrator",
+      "adobe photoshop",
+      "sketch"
+    ],
+    "tags": [
+      "figma",
+      "illustrator",
+      "photography",
+      "after_effects",
+      "adobe_photoshop",
+      "sketch"
+    ],
+    "keywords": [
+      "fashion designer",
+      "figma",
+      "photography",
+      "after effects",
+      "illustrator",
+      "adobe photoshop",
+      "sketch"
+    ]
   },
   {
     "career_name": "Interior Designer",
@@ -6285,7 +9557,32 @@
       "Animator",
       "Journalist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "illustrator",
+      "figma",
+      "after effects",
+      "adobe photoshop",
+      "storyboarding",
+      "photography"
+    ],
+    "tags": [
+      "illustrator",
+      "figma",
+      "after_effects",
+      "adobe_photoshop",
+      "storyboarding",
+      "photography"
+    ],
+    "keywords": [
+      "interior designer",
+      "illustrator",
+      "figma",
+      "after effects",
+      "adobe photoshop",
+      "storyboarding",
+      "photography"
+    ]
   },
   {
     "career_name": "Animator",
@@ -6332,7 +9629,32 @@
       "Theatre Director",
       "Copywriter"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "photography",
+      "adobe photoshop",
+      "after effects",
+      "illustrator",
+      "sketch",
+      "storyboarding"
+    ],
+    "tags": [
+      "illustrator",
+      "photography",
+      "adobe_photoshop",
+      "after_effects",
+      "sketch",
+      "storyboarding"
+    ],
+    "keywords": [
+      "animator",
+      "photography",
+      "adobe photoshop",
+      "after effects",
+      "illustrator",
+      "sketch",
+      "storyboarding"
+    ]
   },
   {
     "career_name": "Film Director",
@@ -6379,7 +9701,32 @@
       "Animator",
       "Music Producer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "photography",
+      "adobe photoshop",
+      "illustrator",
+      "storyboarding",
+      "after effects",
+      "figma"
+    ],
+    "tags": [
+      "illustrator",
+      "figma",
+      "photography",
+      "adobe_photoshop",
+      "storyboarding",
+      "after_effects"
+    ],
+    "keywords": [
+      "film director",
+      "photography",
+      "adobe photoshop",
+      "illustrator",
+      "storyboarding",
+      "after effects",
+      "figma"
+    ]
   },
   {
     "career_name": "Cinematographer",
@@ -6422,7 +9769,30 @@
       "Statistician",
       "Anesthesiologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "hand tools",
+      "welding",
+      "soldering",
+      "machine operation",
+      "blueprint reading"
+    ],
+    "tags": [
+      "hand_tools",
+      "welding",
+      "soldering",
+      "machine_operation",
+      "blueprint_reading",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "cinematographer",
+      "hand tools",
+      "welding",
+      "soldering",
+      "machine operation",
+      "blueprint reading"
+    ]
   },
   {
     "career_name": "Video Editor",
@@ -6465,7 +9835,30 @@
       "Systems Architect Specialist",
       "Startup Founder"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "soldering",
+      "machine operation",
+      "welding",
+      "hand tools",
+      "blueprint reading"
+    ],
+    "tags": [
+      "soldering",
+      "machine_operation",
+      "welding",
+      "hand_tools",
+      "blueprint_reading",
+      "welding_kit"
+    ],
+    "keywords": [
+      "video editor",
+      "soldering",
+      "machine operation",
+      "welding",
+      "hand tools",
+      "blueprint reading"
+    ]
   },
   {
     "career_name": "Photographer",
@@ -6512,7 +9905,32 @@
       "Curator",
       "Journalist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "illustrator",
+      "sketch",
+      "figma",
+      "adobe photoshop",
+      "after effects",
+      "photography"
+    ],
+    "tags": [
+      "illustrator",
+      "figma",
+      "sketch",
+      "adobe_photoshop",
+      "after_effects",
+      "photography"
+    ],
+    "keywords": [
+      "photographer",
+      "illustrator",
+      "sketch",
+      "figma",
+      "adobe photoshop",
+      "after effects",
+      "photography"
+    ]
   },
   {
     "career_name": "Illustrator",
@@ -6559,7 +9977,31 @@
       "UX/UI Designer",
       "Tour Guide"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "after effects",
+      "storyboarding",
+      "figma",
+      "photography",
+      "illustrator",
+      "adobe photoshop"
+    ],
+    "tags": [
+      "figma",
+      "illustrator",
+      "after_effects",
+      "storyboarding",
+      "photography",
+      "adobe_photoshop"
+    ],
+    "keywords": [
+      "illustrator",
+      "after effects",
+      "storyboarding",
+      "figma",
+      "photography",
+      "adobe photoshop"
+    ]
   },
   {
     "career_name": "Game Artist",
@@ -6608,7 +10050,32 @@
       "Data Engineer Specialist",
       "Machine Learning Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "machine learning",
+      "python",
+      "docker",
+      "c++",
+      "data structures",
+      "java"
+    ],
+    "tags": [
+      "docker",
+      "machine_learning",
+      "python",
+      "c++",
+      "data_structures",
+      "java"
+    ],
+    "keywords": [
+      "game artist",
+      "machine learning",
+      "python",
+      "docker",
+      "c++",
+      "data structures",
+      "java"
+    ]
   },
   {
     "career_name": "Sound Designer",
@@ -6655,7 +10122,32 @@
       "Recruiter",
       "Interior Designer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "figma",
+      "adobe photoshop",
+      "storyboarding",
+      "illustrator",
+      "sketch",
+      "photography"
+    ],
+    "tags": [
+      "figma",
+      "illustrator",
+      "adobe_photoshop",
+      "storyboarding",
+      "sketch",
+      "photography"
+    ],
+    "keywords": [
+      "sound designer",
+      "figma",
+      "adobe photoshop",
+      "storyboarding",
+      "illustrator",
+      "sketch",
+      "photography"
+    ]
   },
   {
     "career_name": "Music Producer",
@@ -6702,7 +10194,32 @@
       "Fine Artist",
       "Animator"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "storyboarding",
+      "adobe photoshop",
+      "illustrator",
+      "after effects",
+      "sketch",
+      "figma"
+    ],
+    "tags": [
+      "illustrator",
+      "figma",
+      "storyboarding",
+      "adobe_photoshop",
+      "after_effects",
+      "sketch"
+    ],
+    "keywords": [
+      "music producer",
+      "storyboarding",
+      "adobe photoshop",
+      "illustrator",
+      "after effects",
+      "sketch",
+      "figma"
+    ]
   },
   {
     "career_name": "Content Creator",
@@ -6745,7 +10262,30 @@
       "Horticulturist",
       "Art Director"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "blueprint reading",
+      "soldering",
+      "machine operation",
+      "welding",
+      "hand tools"
+    ],
+    "tags": [
+      "blueprint_reading",
+      "soldering",
+      "machine_operation",
+      "welding",
+      "hand_tools",
+      "welding_kit"
+    ],
+    "keywords": [
+      "content creator",
+      "blueprint reading",
+      "soldering",
+      "machine operation",
+      "welding",
+      "hand tools"
+    ]
   },
   {
     "career_name": "Journalist",
@@ -6792,7 +10332,32 @@
       "UX/UI Designer",
       "Film Director"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "storyboarding",
+      "adobe photoshop",
+      "illustrator",
+      "after effects",
+      "photography",
+      "sketch"
+    ],
+    "tags": [
+      "illustrator",
+      "storyboarding",
+      "adobe_photoshop",
+      "after_effects",
+      "photography",
+      "sketch"
+    ],
+    "keywords": [
+      "journalist",
+      "storyboarding",
+      "adobe photoshop",
+      "illustrator",
+      "after effects",
+      "photography",
+      "sketch"
+    ]
   },
   {
     "career_name": "Copywriter",
@@ -6839,7 +10404,32 @@
       "Journalist",
       "Recruiter"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "after effects",
+      "storyboarding",
+      "photography",
+      "adobe photoshop",
+      "sketch",
+      "figma"
+    ],
+    "tags": [
+      "figma",
+      "after_effects",
+      "storyboarding",
+      "photography",
+      "adobe_photoshop",
+      "sketch"
+    ],
+    "keywords": [
+      "copywriter",
+      "after effects",
+      "storyboarding",
+      "photography",
+      "adobe photoshop",
+      "sketch",
+      "figma"
+    ]
   },
   {
     "career_name": "Art Director",
@@ -6882,7 +10472,30 @@
       "Systems Architect Specialist",
       "Psychiatrist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "hand tools",
+      "machine operation",
+      "blueprint reading",
+      "soldering",
+      "welding"
+    ],
+    "tags": [
+      "hand_tools",
+      "machine_operation",
+      "blueprint_reading",
+      "soldering",
+      "welding",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "art director",
+      "hand tools",
+      "machine operation",
+      "blueprint reading",
+      "soldering",
+      "welding"
+    ]
   },
   {
     "career_name": "Curator",
@@ -6929,7 +10542,32 @@
       "Illustrator",
       "Copywriter"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "photography",
+      "adobe photoshop",
+      "figma",
+      "storyboarding",
+      "sketch",
+      "illustrator"
+    ],
+    "tags": [
+      "figma",
+      "illustrator",
+      "photography",
+      "adobe_photoshop",
+      "storyboarding",
+      "sketch"
+    ],
+    "keywords": [
+      "curator",
+      "photography",
+      "adobe photoshop",
+      "figma",
+      "storyboarding",
+      "sketch",
+      "illustrator"
+    ]
   },
   {
     "career_name": "Fine Artist",
@@ -6976,7 +10614,32 @@
       "Theatre Director",
       "Interior Designer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "photography",
+      "illustrator",
+      "figma",
+      "storyboarding",
+      "after effects",
+      "adobe photoshop"
+    ],
+    "tags": [
+      "illustrator",
+      "figma",
+      "photography",
+      "storyboarding",
+      "after_effects",
+      "adobe_photoshop"
+    ],
+    "keywords": [
+      "fine artist",
+      "photography",
+      "illustrator",
+      "figma",
+      "storyboarding",
+      "after effects",
+      "adobe photoshop"
+    ]
   },
   {
     "career_name": "Theatre Director",
@@ -7023,7 +10686,32 @@
       "Interior Designer",
       "Fashion Designer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "illustrator",
+      "adobe photoshop",
+      "figma",
+      "storyboarding",
+      "after effects",
+      "sketch"
+    ],
+    "tags": [
+      "illustrator",
+      "figma",
+      "adobe_photoshop",
+      "storyboarding",
+      "after_effects",
+      "sketch"
+    ],
+    "keywords": [
+      "theatre director",
+      "illustrator",
+      "adobe photoshop",
+      "figma",
+      "storyboarding",
+      "after effects",
+      "sketch"
+    ]
   },
   {
     "career_name": "School Teacher",
@@ -7065,7 +10753,28 @@
       "College Lecturer",
       "Career Counselor"
     ],
-    "future_scope": "Evolving with technology and industry trends in Education & Social."
+    "future_scope": "Evolving with technology and industry trends in Education & Social.",
+    "interests": [
+      "teaching methods",
+      "counseling",
+      "assessment",
+      "curriculum design"
+    ],
+    "tags": [
+      "teaching_methods",
+      "counseling",
+      "assessment",
+      "curriculum_design",
+      "zoom",
+      "lms"
+    ],
+    "keywords": [
+      "school teacher",
+      "teaching methods",
+      "counseling",
+      "assessment",
+      "curriculum design"
+    ]
   },
   {
     "career_name": "College Lecturer",
@@ -7107,7 +10816,28 @@
       "Career Counselor",
       "Counselor"
     ],
-    "future_scope": "Evolving with technology and industry trends in Education & Social."
+    "future_scope": "Evolving with technology and industry trends in Education & Social.",
+    "interests": [
+      "curriculum design",
+      "assessment",
+      "teaching methods",
+      "counseling"
+    ],
+    "tags": [
+      "curriculum_design",
+      "assessment",
+      "teaching_methods",
+      "counseling",
+      "zoom",
+      "lms"
+    ],
+    "keywords": [
+      "college lecturer",
+      "curriculum design",
+      "assessment",
+      "teaching methods",
+      "counseling"
+    ]
   },
   {
     "career_name": "Educational Consultant",
@@ -7154,7 +10884,32 @@
       "Actuary",
       "Chartered Accountant"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "negotiation",
+      "accounting",
+      "financial modelling",
+      "communication",
+      "powerbi",
+      "sql"
+    ],
+    "tags": [
+      "powerbi",
+      "negotiation",
+      "accounting",
+      "financial_modelling",
+      "communication",
+      "sql"
+    ],
+    "keywords": [
+      "educational consultant",
+      "negotiation",
+      "accounting",
+      "financial modelling",
+      "communication",
+      "powerbi",
+      "sql"
+    ]
   },
   {
     "career_name": "Instructional Designer",
@@ -7201,7 +10956,32 @@
       "Sound Designer",
       "Fashion Designer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "sketch",
+      "adobe photoshop",
+      "photography",
+      "storyboarding",
+      "after effects",
+      "illustrator"
+    ],
+    "tags": [
+      "illustrator",
+      "sketch",
+      "adobe_photoshop",
+      "photography",
+      "storyboarding",
+      "after_effects"
+    ],
+    "keywords": [
+      "instructional designer",
+      "sketch",
+      "adobe photoshop",
+      "photography",
+      "storyboarding",
+      "after effects",
+      "illustrator"
+    ]
   },
   {
     "career_name": "Counselor",
@@ -7243,7 +11023,28 @@
       "Social Worker",
       "Career Counselor"
     ],
-    "future_scope": "Evolving with technology and industry trends in Education & Social."
+    "future_scope": "Evolving with technology and industry trends in Education & Social.",
+    "interests": [
+      "teaching methods",
+      "assessment",
+      "curriculum design",
+      "counseling"
+    ],
+    "tags": [
+      "teaching_methods",
+      "assessment",
+      "curriculum_design",
+      "counseling",
+      "lms",
+      "zoom"
+    ],
+    "keywords": [
+      "counselor",
+      "teaching methods",
+      "assessment",
+      "curriculum design",
+      "counseling"
+    ]
   },
   {
     "career_name": "Career Counselor",
@@ -7285,7 +11086,28 @@
       "Counselor",
       "Social Worker"
     ],
-    "future_scope": "Evolving with technology and industry trends in Education & Social."
+    "future_scope": "Evolving with technology and industry trends in Education & Social.",
+    "interests": [
+      "counseling",
+      "curriculum design",
+      "teaching methods",
+      "assessment"
+    ],
+    "tags": [
+      "counseling",
+      "curriculum_design",
+      "teaching_methods",
+      "assessment",
+      "lms",
+      "zoom"
+    ],
+    "keywords": [
+      "career counselor",
+      "counseling",
+      "curriculum design",
+      "teaching methods",
+      "assessment"
+    ]
   },
   {
     "career_name": "Social Worker",
@@ -7327,7 +11149,28 @@
       "School Teacher",
       "Career Counselor"
     ],
-    "future_scope": "Evolving with technology and industry trends in Education & Social."
+    "future_scope": "Evolving with technology and industry trends in Education & Social.",
+    "interests": [
+      "teaching methods",
+      "assessment",
+      "curriculum design",
+      "counseling"
+    ],
+    "tags": [
+      "teaching_methods",
+      "assessment",
+      "curriculum_design",
+      "counseling",
+      "google_classroom",
+      "lms"
+    ],
+    "keywords": [
+      "social worker",
+      "teaching methods",
+      "assessment",
+      "curriculum design",
+      "counseling"
+    ]
   },
   {
     "career_name": "Community Manager",
@@ -7374,7 +11217,32 @@
       "Actuary",
       "Operations Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "communication",
+      "sql",
+      "accounting",
+      "negotiation",
+      "powerbi",
+      "excel"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "communication",
+      "sql",
+      "accounting",
+      "negotiation"
+    ],
+    "keywords": [
+      "community manager",
+      "communication",
+      "sql",
+      "accounting",
+      "negotiation",
+      "powerbi",
+      "excel"
+    ]
   },
   {
     "career_name": "Trainer",
@@ -7423,7 +11291,32 @@
       "Thermal Engineer",
       "DevOps Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "linux",
+      "microservices",
+      "rest apis",
+      "machine learning",
+      "git",
+      "kubernetes"
+    ],
+    "tags": [
+      "git",
+      "linux",
+      "microservices",
+      "rest_apis",
+      "machine_learning",
+      "kubernetes"
+    ],
+    "keywords": [
+      "trainer",
+      "linux",
+      "microservices",
+      "rest apis",
+      "machine learning",
+      "git",
+      "kubernetes"
+    ]
   },
   {
     "career_name": "Academic Researcher",
@@ -7470,7 +11363,32 @@
       "Geneticist",
       "Food Scientist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "scientific writing",
+      "data analysis",
+      "lab techniques",
+      "r",
+      "python",
+      "statistical methods"
+    ],
+    "tags": [
+      "scientific_writing",
+      "data_analysis",
+      "lab_techniques",
+      "r",
+      "python",
+      "statistical_methods"
+    ],
+    "keywords": [
+      "academic researcher",
+      "scientific writing",
+      "data analysis",
+      "lab techniques",
+      "r",
+      "python",
+      "statistical methods"
+    ]
   },
   {
     "career_name": "Electrician",
@@ -7513,7 +11431,30 @@
       "Welder",
       "Technical Writer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "welding",
+      "blueprint reading",
+      "hand tools",
+      "machine operation",
+      "soldering"
+    ],
+    "tags": [
+      "welding",
+      "blueprint_reading",
+      "hand_tools",
+      "machine_operation",
+      "soldering",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "electrician",
+      "welding",
+      "blueprint reading",
+      "hand tools",
+      "machine operation",
+      "soldering"
+    ]
   },
   {
     "career_name": "Plumber",
@@ -7556,7 +11497,30 @@
       "Mechanic",
       "Franchise Owner"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "blueprint reading",
+      "welding"
+    ],
+    "tags": [
+      "machine_operation",
+      "hand_tools",
+      "soldering",
+      "blueprint_reading",
+      "welding",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "plumber",
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "blueprint reading",
+      "welding"
+    ]
   },
   {
     "career_name": "Carpenter",
@@ -7599,7 +11563,30 @@
       "Systems Architect",
       "Psychiatrist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "blueprint reading",
+      "soldering",
+      "welding",
+      "hand tools",
+      "machine operation"
+    ],
+    "tags": [
+      "blueprint_reading",
+      "soldering",
+      "welding",
+      "hand_tools",
+      "machine_operation",
+      "multimeter"
+    ],
+    "keywords": [
+      "carpenter",
+      "blueprint reading",
+      "soldering",
+      "welding",
+      "hand tools",
+      "machine operation"
+    ]
   },
   {
     "career_name": "Welder",
@@ -7642,7 +11629,30 @@
       "Franchise Owner",
       "Nutritionist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "machine operation",
+      "blueprint reading",
+      "hand tools",
+      "soldering",
+      "welding"
+    ],
+    "tags": [
+      "machine_operation",
+      "blueprint_reading",
+      "hand_tools",
+      "soldering",
+      "welding",
+      "multimeter"
+    ],
+    "keywords": [
+      "welder",
+      "machine operation",
+      "blueprint reading",
+      "hand tools",
+      "soldering",
+      "welding"
+    ]
   },
   {
     "career_name": "Mechanic",
@@ -7685,7 +11695,30 @@
       "Video Editor",
       "Psychiatrist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "soldering",
+      "blueprint reading",
+      "hand tools",
+      "machine operation",
+      "welding"
+    ],
+    "tags": [
+      "soldering",
+      "blueprint_reading",
+      "hand_tools",
+      "machine_operation",
+      "welding",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "mechanic",
+      "soldering",
+      "blueprint reading",
+      "hand tools",
+      "machine operation",
+      "welding"
+    ]
   },
   {
     "career_name": "HVAC Technician",
@@ -7733,7 +11766,32 @@
       "Materials Scientist",
       "Construction Project Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Engineering."
+    "future_scope": "Evolving with technology and industry trends in Engineering.",
+    "interests": [
+      "catia",
+      "thermodynamics",
+      "fabrication",
+      "dynamics",
+      "cad",
+      "ansys"
+    ],
+    "tags": [
+      "catia",
+      "thermodynamics",
+      "fabrication",
+      "dynamics",
+      "cad",
+      "ansys"
+    ],
+    "keywords": [
+      "hvac technician",
+      "catia",
+      "thermodynamics",
+      "fabrication",
+      "dynamics",
+      "cad",
+      "ansys"
+    ]
   },
   {
     "career_name": "Pilot",
@@ -7776,7 +11834,30 @@
       "Technical Writer",
       "General Practitioner"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "soldering",
+      "welding",
+      "blueprint reading",
+      "hand tools",
+      "machine operation"
+    ],
+    "tags": [
+      "soldering",
+      "welding",
+      "blueprint_reading",
+      "hand_tools",
+      "machine_operation",
+      "multimeter"
+    ],
+    "keywords": [
+      "pilot",
+      "soldering",
+      "welding",
+      "blueprint reading",
+      "hand tools",
+      "machine operation"
+    ]
   },
   {
     "career_name": "Air Traffic Controller",
@@ -7825,7 +11906,32 @@
       "Supply Chain Manager",
       "Database Administrator"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "rest apis",
+      "machine learning",
+      "aws",
+      "javascript",
+      "algorithms",
+      "sql"
+    ],
+    "tags": [
+      "rest_apis",
+      "machine_learning",
+      "aws",
+      "javascript",
+      "algorithms",
+      "sql"
+    ],
+    "keywords": [
+      "air traffic controller",
+      "rest apis",
+      "machine learning",
+      "aws",
+      "javascript",
+      "algorithms",
+      "sql"
+    ]
   },
   {
     "career_name": "Chef",
@@ -7868,7 +11974,30 @@
       "Content Creator",
       "Content Strategist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "machine operation",
+      "welding",
+      "soldering",
+      "hand tools",
+      "blueprint reading"
+    ],
+    "tags": [
+      "machine_operation",
+      "welding",
+      "soldering",
+      "hand_tools",
+      "blueprint_reading",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "chef",
+      "machine operation",
+      "welding",
+      "soldering",
+      "hand tools",
+      "blueprint reading"
+    ]
   },
   {
     "career_name": "Baker",
@@ -7911,7 +12040,30 @@
       "Real Estate Agent",
       "Welder"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "blueprint reading",
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "welding"
+    ],
+    "tags": [
+      "blueprint_reading",
+      "machine_operation",
+      "hand_tools",
+      "soldering",
+      "welding",
+      "welding_kit"
+    ],
+    "keywords": [
+      "baker",
+      "blueprint reading",
+      "machine operation",
+      "hand tools",
+      "soldering",
+      "welding"
+    ]
   },
   {
     "career_name": "Hotel Manager",
@@ -7958,7 +12110,32 @@
       "Corporate Lawyer",
       "Business Analyst"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "accounting",
+      "sql",
+      "excel",
+      "negotiation",
+      "powerbi",
+      "financial modelling"
+    ],
+    "tags": [
+      "excel",
+      "powerbi",
+      "accounting",
+      "sql",
+      "negotiation",
+      "financial_modelling"
+    ],
+    "keywords": [
+      "hotel manager",
+      "accounting",
+      "sql",
+      "excel",
+      "negotiation",
+      "powerbi",
+      "financial modelling"
+    ]
   },
   {
     "career_name": "Tour Guide",
@@ -8005,7 +12182,32 @@
       "Interior Designer",
       "Film Director"
     ],
-    "future_scope": "Evolving with technology and industry trends in Arts & Media."
+    "future_scope": "Evolving with technology and industry trends in Arts & Media.",
+    "interests": [
+      "sketch",
+      "after effects",
+      "illustrator",
+      "photography",
+      "storyboarding",
+      "figma"
+    ],
+    "tags": [
+      "illustrator",
+      "figma",
+      "sketch",
+      "after_effects",
+      "photography",
+      "storyboarding"
+    ],
+    "keywords": [
+      "tour guide",
+      "sketch",
+      "after effects",
+      "illustrator",
+      "photography",
+      "storyboarding",
+      "figma"
+    ]
   },
   {
     "career_name": "Event Manager",
@@ -8052,7 +12254,32 @@
       "Chartered Accountant",
       "Project Manager"
     ],
-    "future_scope": "Evolving with technology and industry trends in Business & Finance."
+    "future_scope": "Evolving with technology and industry trends in Business & Finance.",
+    "interests": [
+      "powerbi",
+      "excel",
+      "negotiation",
+      "accounting",
+      "financial modelling",
+      "sql"
+    ],
+    "tags": [
+      "powerbi",
+      "excel",
+      "negotiation",
+      "accounting",
+      "financial_modelling",
+      "sql"
+    ],
+    "keywords": [
+      "event manager",
+      "powerbi",
+      "excel",
+      "negotiation",
+      "accounting",
+      "financial modelling",
+      "sql"
+    ]
   },
   {
     "career_name": "Real Estate Agent",
@@ -8095,7 +12322,30 @@
       "Content Creator",
       "Hydrologist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "machine operation",
+      "welding",
+      "hand tools",
+      "soldering",
+      "blueprint reading"
+    ],
+    "tags": [
+      "machine_operation",
+      "welding",
+      "hand_tools",
+      "soldering",
+      "blueprint_reading",
+      "multimeter"
+    ],
+    "keywords": [
+      "real estate agent",
+      "machine operation",
+      "welding",
+      "hand tools",
+      "soldering",
+      "blueprint reading"
+    ]
   },
   {
     "career_name": "Entrepreneur",
@@ -8138,7 +12388,30 @@
       "Hydrologist",
       "Carpenter"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "blueprint reading",
+      "machine operation",
+      "hand tools",
+      "welding",
+      "soldering"
+    ],
+    "tags": [
+      "blueprint_reading",
+      "machine_operation",
+      "hand_tools",
+      "welding",
+      "soldering",
+      "welding_kit"
+    ],
+    "keywords": [
+      "entrepreneur",
+      "blueprint reading",
+      "machine operation",
+      "hand tools",
+      "welding",
+      "soldering"
+    ]
   },
   {
     "career_name": "Startup Founder",
@@ -8181,7 +12454,30 @@
       "Video Editor",
       "Entrepreneur"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "machine operation",
+      "blueprint reading",
+      "soldering",
+      "hand tools",
+      "welding"
+    ],
+    "tags": [
+      "machine_operation",
+      "blueprint_reading",
+      "soldering",
+      "hand_tools",
+      "welding",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "startup founder",
+      "machine operation",
+      "blueprint reading",
+      "soldering",
+      "hand tools",
+      "welding"
+    ]
   },
   {
     "career_name": "Franchise Owner",
@@ -8224,7 +12520,30 @@
       "Video Editor",
       "Statistician"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "welding",
+      "hand tools",
+      "blueprint reading",
+      "machine operation",
+      "soldering"
+    ],
+    "tags": [
+      "welding",
+      "hand_tools",
+      "blueprint_reading",
+      "machine_operation",
+      "soldering",
+      "multimeter"
+    ],
+    "keywords": [
+      "franchise owner",
+      "welding",
+      "hand tools",
+      "blueprint reading",
+      "machine operation",
+      "soldering"
+    ]
   },
   {
     "career_name": "Agricultural Scientist",
@@ -8271,7 +12590,32 @@
       "Astronomer",
       "Environmental Scientist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Science & Research."
+    "future_scope": "Evolving with technology and industry trends in Science & Research.",
+    "interests": [
+      "statistical methods",
+      "data analysis",
+      "r",
+      "experiment design",
+      "scientific writing",
+      "lab techniques"
+    ],
+    "tags": [
+      "statistical_methods",
+      "data_analysis",
+      "r",
+      "experiment_design",
+      "scientific_writing",
+      "lab_techniques"
+    ],
+    "keywords": [
+      "agricultural scientist",
+      "statistical methods",
+      "data analysis",
+      "r",
+      "experiment design",
+      "scientific writing",
+      "lab techniques"
+    ]
   },
   {
     "career_name": "Horticulturist",
@@ -8314,7 +12658,30 @@
       "Systems Architect Specialist",
       "Video Editor"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "hand tools",
+      "soldering",
+      "blueprint reading",
+      "welding",
+      "machine operation"
+    ],
+    "tags": [
+      "hand_tools",
+      "soldering",
+      "blueprint_reading",
+      "welding",
+      "machine_operation",
+      "carpentry_tools"
+    ],
+    "keywords": [
+      "horticulturist",
+      "hand tools",
+      "soldering",
+      "blueprint reading",
+      "welding",
+      "machine operation"
+    ]
   },
   {
     "career_name": "Veterinarian",
@@ -8357,7 +12724,30 @@
       "Systems Architect Specialist",
       "Science Communicator"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "welding",
+      "blueprint reading",
+      "hand tools",
+      "machine operation",
+      "soldering"
+    ],
+    "tags": [
+      "welding",
+      "blueprint_reading",
+      "hand_tools",
+      "machine_operation",
+      "soldering",
+      "multimeter"
+    ],
+    "keywords": [
+      "veterinarian",
+      "welding",
+      "blueprint reading",
+      "hand tools",
+      "machine operation",
+      "soldering"
+    ]
   },
   {
     "career_name": "Software Engineer Specialist",
@@ -8406,7 +12796,32 @@
       "Blockchain Developer Specialist",
       "Automotive Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "azure",
+      "kubernetes",
+      "rest apis",
+      "sql",
+      "c++",
+      "python"
+    ],
+    "tags": [
+      "azure",
+      "kubernetes",
+      "rest_apis",
+      "sql",
+      "c++",
+      "python"
+    ],
+    "keywords": [
+      "software engineer specialist",
+      "azure",
+      "kubernetes",
+      "rest apis",
+      "sql",
+      "c++",
+      "python"
+    ]
   },
   {
     "career_name": "Full Stack Developer Specialist",
@@ -8455,7 +12870,32 @@
       "BI Developer",
       "Automotive Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "kubernetes",
+      "data structures",
+      "microservices",
+      "linux",
+      "git",
+      "aws"
+    ],
+    "tags": [
+      "git",
+      "kubernetes",
+      "data_structures",
+      "microservices",
+      "linux",
+      "aws"
+    ],
+    "keywords": [
+      "full stack developer specialist",
+      "kubernetes",
+      "data structures",
+      "microservices",
+      "linux",
+      "git",
+      "aws"
+    ]
   },
   {
     "career_name": "Frontend Developer Specialist",
@@ -8504,7 +12944,32 @@
       "Computer Vision Engineer",
       "Industrial Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "git",
+      "microservices",
+      "c++",
+      "azure",
+      "linux",
+      "aws"
+    ],
+    "tags": [
+      "git",
+      "microservices",
+      "c++",
+      "azure",
+      "linux",
+      "aws"
+    ],
+    "keywords": [
+      "frontend developer specialist",
+      "git",
+      "microservices",
+      "c++",
+      "azure",
+      "linux",
+      "aws"
+    ]
   },
   {
     "career_name": "Backend Developer Specialist",
@@ -8553,7 +13018,32 @@
       "Nanotechnology Engineer",
       "IoT Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "python",
+      "microservices",
+      "java",
+      "kubernetes",
+      "azure",
+      "docker"
+    ],
+    "tags": [
+      "docker",
+      "python",
+      "microservices",
+      "java",
+      "kubernetes",
+      "azure"
+    ],
+    "keywords": [
+      "backend developer specialist",
+      "python",
+      "microservices",
+      "java",
+      "kubernetes",
+      "azure",
+      "docker"
+    ]
   },
   {
     "career_name": "Mobile App Developer Specialist",
@@ -8602,7 +13092,32 @@
       "Cloud Engineer Specialist",
       "Metallurgical Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "javascript",
+      "python",
+      "linux",
+      "algorithms",
+      "azure",
+      "data structures"
+    ],
+    "tags": [
+      "javascript",
+      "python",
+      "linux",
+      "algorithms",
+      "azure",
+      "data_structures"
+    ],
+    "keywords": [
+      "mobile app developer specialist",
+      "javascript",
+      "python",
+      "linux",
+      "algorithms",
+      "azure",
+      "data structures"
+    ]
   },
   {
     "career_name": "DevOps Engineer Specialist",
@@ -8651,7 +13166,32 @@
       "Data Engineer Specialist",
       "Control Systems Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "javascript",
+      "git",
+      "algorithms",
+      "linux",
+      "kubernetes",
+      "data structures"
+    ],
+    "tags": [
+      "git",
+      "javascript",
+      "algorithms",
+      "linux",
+      "kubernetes",
+      "data_structures"
+    ],
+    "keywords": [
+      "devops engineer specialist",
+      "javascript",
+      "git",
+      "algorithms",
+      "linux",
+      "kubernetes",
+      "data structures"
+    ]
   },
   {
     "career_name": "Site Reliability Engineer Specialist",
@@ -8700,7 +13240,32 @@
       "Computer Vision Engineer Specialist",
       "Product Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "python",
+      "java",
+      "azure",
+      "algorithms",
+      "sql",
+      "aws"
+    ],
+    "tags": [
+      "python",
+      "java",
+      "azure",
+      "algorithms",
+      "sql",
+      "aws"
+    ],
+    "keywords": [
+      "site reliability engineer specialist",
+      "python",
+      "java",
+      "azure",
+      "algorithms",
+      "sql",
+      "aws"
+    ]
   },
   {
     "career_name": "QA Engineer Specialist",
@@ -8749,7 +13314,32 @@
       "QA Engineer",
       "Release Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "docker",
+      "python",
+      "javascript",
+      "c++",
+      "algorithms",
+      "microservices"
+    ],
+    "tags": [
+      "docker",
+      "python",
+      "javascript",
+      "c++",
+      "algorithms",
+      "microservices"
+    ],
+    "keywords": [
+      "qa engineer specialist",
+      "docker",
+      "python",
+      "javascript",
+      "c++",
+      "algorithms",
+      "microservices"
+    ]
   },
   {
     "career_name": "Data Engineer Specialist",
@@ -8798,7 +13388,32 @@
       "Software Engineer",
       "Network Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "microservices",
+      "machine learning",
+      "azure",
+      "c++",
+      "git",
+      "docker"
+    ],
+    "tags": [
+      "git",
+      "docker",
+      "microservices",
+      "machine_learning",
+      "azure",
+      "c++"
+    ],
+    "keywords": [
+      "data engineer specialist",
+      "microservices",
+      "machine learning",
+      "azure",
+      "c++",
+      "git",
+      "docker"
+    ]
   },
   {
     "career_name": "Data Scientist Specialist",
@@ -8847,7 +13462,32 @@
       "Biotechnologist",
       "Nanotechnology Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "javascript",
+      "c++",
+      "algorithms",
+      "data structures",
+      "azure",
+      "microservices"
+    ],
+    "tags": [
+      "javascript",
+      "c++",
+      "algorithms",
+      "data_structures",
+      "azure",
+      "microservices"
+    ],
+    "keywords": [
+      "data scientist specialist",
+      "javascript",
+      "c++",
+      "algorithms",
+      "data structures",
+      "azure",
+      "microservices"
+    ]
   },
   {
     "career_name": "Machine Learning Engineer Specialist",
@@ -8896,7 +13536,32 @@
       "Frontend Developer Specialist",
       "Full Stack Developer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "azure",
+      "aws",
+      "c++",
+      "kubernetes",
+      "javascript",
+      "data structures"
+    ],
+    "tags": [
+      "azure",
+      "aws",
+      "c++",
+      "kubernetes",
+      "javascript",
+      "data_structures"
+    ],
+    "keywords": [
+      "machine learning engineer specialist",
+      "azure",
+      "aws",
+      "c++",
+      "kubernetes",
+      "javascript",
+      "data structures"
+    ]
   },
   {
     "career_name": "AI Researcher Specialist",
@@ -8945,7 +13610,32 @@
       "Automotive Engineer",
       "DevOps Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "aws",
+      "python",
+      "docker",
+      "kubernetes",
+      "azure",
+      "machine learning"
+    ],
+    "tags": [
+      "aws",
+      "python",
+      "docker",
+      "kubernetes",
+      "azure",
+      "machine_learning"
+    ],
+    "keywords": [
+      "ai researcher specialist",
+      "aws",
+      "python",
+      "docker",
+      "kubernetes",
+      "azure",
+      "machine learning"
+    ]
   },
   {
     "career_name": "NLP Engineer Specialist",
@@ -8994,7 +13684,32 @@
       "BI Developer",
       "QA Engineer Specialist"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "docker",
+      "c++",
+      "kubernetes",
+      "microservices",
+      "java",
+      "javascript"
+    ],
+    "tags": [
+      "docker",
+      "c++",
+      "kubernetes",
+      "microservices",
+      "java",
+      "javascript"
+    ],
+    "keywords": [
+      "nlp engineer specialist",
+      "docker",
+      "c++",
+      "kubernetes",
+      "microservices",
+      "java",
+      "javascript"
+    ]
   },
   {
     "career_name": "Computer Vision Engineer Specialist",
@@ -9043,7 +13758,32 @@
       "Supply Chain Manager",
       "Structural Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "kubernetes",
+      "microservices",
+      "machine learning",
+      "aws",
+      "python",
+      "java"
+    ],
+    "tags": [
+      "kubernetes",
+      "microservices",
+      "machine_learning",
+      "aws",
+      "python",
+      "java"
+    ],
+    "keywords": [
+      "computer vision engineer specialist",
+      "kubernetes",
+      "microservices",
+      "machine learning",
+      "aws",
+      "python",
+      "java"
+    ]
   },
   {
     "career_name": "Cloud Engineer Specialist",
@@ -9092,7 +13832,32 @@
       "Marine Engineer",
       "DevOps Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "data structures",
+      "rest apis",
+      "sql",
+      "java",
+      "python",
+      "linux"
+    ],
+    "tags": [
+      "data_structures",
+      "rest_apis",
+      "sql",
+      "java",
+      "python",
+      "linux"
+    ],
+    "keywords": [
+      "cloud engineer specialist",
+      "data structures",
+      "rest apis",
+      "sql",
+      "java",
+      "python",
+      "linux"
+    ]
   },
   {
     "career_name": "Cloud Architect Specialist",
@@ -9141,7 +13906,32 @@
       "QA Engineer",
       "AI Researcher"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "c++",
+      "rest apis",
+      "microservices",
+      "javascript",
+      "azure",
+      "linux"
+    ],
+    "tags": [
+      "c++",
+      "rest_apis",
+      "microservices",
+      "javascript",
+      "azure",
+      "linux"
+    ],
+    "keywords": [
+      "cloud architect specialist",
+      "c++",
+      "rest apis",
+      "microservices",
+      "javascript",
+      "azure",
+      "linux"
+    ]
   },
   {
     "career_name": "Database Administrator Specialist",
@@ -9190,7 +13980,32 @@
       "DevOps Engineer",
       "Machine Learning Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "algorithms",
+      "data structures",
+      "linux",
+      "javascript",
+      "c++",
+      "docker"
+    ],
+    "tags": [
+      "docker",
+      "algorithms",
+      "data_structures",
+      "linux",
+      "javascript",
+      "c++"
+    ],
+    "keywords": [
+      "database administrator specialist",
+      "algorithms",
+      "data structures",
+      "linux",
+      "javascript",
+      "c++",
+      "docker"
+    ]
   },
   {
     "career_name": "Systems Architect Specialist",
@@ -9233,7 +14048,30 @@
       "Startup Founder",
       "Video Editor"
     ],
-    "future_scope": "Evolving with technology and industry trends in Trades & Vocational."
+    "future_scope": "Evolving with technology and industry trends in Trades & Vocational.",
+    "interests": [
+      "hand tools",
+      "blueprint reading",
+      "machine operation",
+      "welding",
+      "soldering"
+    ],
+    "tags": [
+      "hand_tools",
+      "blueprint_reading",
+      "machine_operation",
+      "welding",
+      "soldering",
+      "welding_kit"
+    ],
+    "keywords": [
+      "systems architect specialist",
+      "hand tools",
+      "blueprint reading",
+      "machine operation",
+      "welding",
+      "soldering"
+    ]
   },
   {
     "career_name": "Embedded Systems Engineer Specialist",
@@ -9282,7 +14120,32 @@
       "Game Artist",
       "Security Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "data structures",
+      "algorithms",
+      "aws",
+      "java",
+      "linux",
+      "javascript"
+    ],
+    "tags": [
+      "data_structures",
+      "algorithms",
+      "aws",
+      "java",
+      "linux",
+      "javascript"
+    ],
+    "keywords": [
+      "embedded systems engineer specialist",
+      "data structures",
+      "algorithms",
+      "aws",
+      "java",
+      "linux",
+      "javascript"
+    ]
   },
   {
     "career_name": "Game Developer Specialist",
@@ -9331,7 +14194,32 @@
       "IoT Engineer",
       "Site Reliability Engineer (SRE)"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "docker",
+      "rest apis",
+      "azure",
+      "python",
+      "data structures",
+      "algorithms"
+    ],
+    "tags": [
+      "docker",
+      "rest_apis",
+      "azure",
+      "python",
+      "data_structures",
+      "algorithms"
+    ],
+    "keywords": [
+      "game developer specialist",
+      "docker",
+      "rest apis",
+      "azure",
+      "python",
+      "data structures",
+      "algorithms"
+    ]
   },
   {
     "career_name": "Blockchain Developer Specialist",
@@ -9380,6 +14268,1071 @@
       "Biotechnologist",
       "Mechanical Engineer"
     ],
-    "future_scope": "Evolving with technology and industry trends in Information Technology."
+    "future_scope": "Evolving with technology and industry trends in Information Technology.",
+    "interests": [
+      "git",
+      "linux",
+      "azure",
+      "aws",
+      "docker",
+      "algorithms"
+    ],
+    "tags": [
+      "git",
+      "docker",
+      "linux",
+      "azure",
+      "aws",
+      "algorithms"
+    ],
+    "keywords": [
+      "blockchain developer specialist",
+      "git",
+      "linux",
+      "azure",
+      "aws",
+      "docker",
+      "algorithms"
+    ]
+  },
+  {
+    "career_name": "B.Tech Computer Science Engineering",
+    "category": "Technology",
+    "sub_category": "Computer Science",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "computer_science"
+    ],
+    "keywords": [
+      "b.tech computer science engineering",
+      "btech",
+      "engineering",
+      "computer science"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Computer Science Engineering focuses on core engineering principles and applied technologies in the field of Computer Science."
+  },
+  {
+    "career_name": "B.Tech Information Technology",
+    "category": "Technology",
+    "sub_category": "Information Technology",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "information_technology"
+    ],
+    "keywords": [
+      "b.tech information technology",
+      "btech",
+      "engineering",
+      "information technology"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Information Technology focuses on core engineering principles and applied technologies in the field of Information Technology."
+  },
+  {
+    "career_name": "B.Tech Artificial Intelligence",
+    "category": "Technology",
+    "sub_category": "AI & ML",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "ai_&_ml"
+    ],
+    "keywords": [
+      "b.tech artificial intelligence",
+      "btech",
+      "engineering",
+      "ai & ml"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Artificial Intelligence focuses on core engineering principles and applied technologies in the field of AI & ML."
+  },
+  {
+    "career_name": "B.Tech Data Science",
+    "category": "Technology",
+    "sub_category": "Data & AI",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "data_&_ai"
+    ],
+    "keywords": [
+      "b.tech data science",
+      "btech",
+      "engineering",
+      "data & ai"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Data Science focuses on core engineering principles and applied technologies in the field of Data & AI."
+  },
+  {
+    "career_name": "B.Tech Cyber Security",
+    "category": "Technology",
+    "sub_category": "Security",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "security"
+    ],
+    "keywords": [
+      "b.tech cyber security",
+      "btech",
+      "engineering",
+      "security"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Cyber Security focuses on core engineering principles and applied technologies in the field of Security."
+  },
+  {
+    "career_name": "B.Tech Electronics & Communication Engineering",
+    "category": "Engineering",
+    "sub_category": "Electronics",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "electronics"
+    ],
+    "keywords": [
+      "b.tech electronics & communication engineering",
+      "btech",
+      "engineering",
+      "electronics"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Electronics & Communication Engineering focuses on core engineering principles and applied technologies in the field of Electronics."
+  },
+  {
+    "career_name": "B.Tech Electrical Engineering",
+    "category": "Engineering",
+    "sub_category": "Electrical",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "electrical"
+    ],
+    "keywords": [
+      "b.tech electrical engineering",
+      "btech",
+      "engineering",
+      "electrical"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Electrical Engineering focuses on core engineering principles and applied technologies in the field of Electrical."
+  },
+  {
+    "career_name": "B.Tech Mechanical Engineering",
+    "category": "Engineering",
+    "sub_category": "Mechanical",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "mechanical"
+    ],
+    "keywords": [
+      "b.tech mechanical engineering",
+      "btech",
+      "engineering",
+      "mechanical"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Mechanical Engineering focuses on core engineering principles and applied technologies in the field of Mechanical."
+  },
+  {
+    "career_name": "B.Tech Civil Engineering",
+    "category": "Engineering",
+    "sub_category": "Civil",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "civil"
+    ],
+    "keywords": [
+      "b.tech civil engineering",
+      "btech",
+      "engineering",
+      "civil"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Civil Engineering focuses on core engineering principles and applied technologies in the field of Civil."
+  },
+  {
+    "career_name": "B.Tech Robotics Engineering",
+    "category": "Engineering",
+    "sub_category": "Robotics",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "robotics"
+    ],
+    "keywords": [
+      "b.tech robotics engineering",
+      "btech",
+      "engineering",
+      "robotics"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Robotics Engineering focuses on core engineering principles and applied technologies in the field of Robotics."
+  },
+  {
+    "career_name": "B.Tech Mechatronics Engineering",
+    "category": "Engineering",
+    "sub_category": "Mechatronics",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "mechatronics"
+    ],
+    "keywords": [
+      "b.tech mechatronics engineering",
+      "btech",
+      "engineering",
+      "mechatronics"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Mechatronics Engineering focuses on core engineering principles and applied technologies in the field of Mechatronics."
+  },
+  {
+    "career_name": "B.Tech Chemical Engineering",
+    "category": "Engineering",
+    "sub_category": "Chemical",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "chemical"
+    ],
+    "keywords": [
+      "b.tech chemical engineering",
+      "btech",
+      "engineering",
+      "chemical"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Chemical Engineering focuses on core engineering principles and applied technologies in the field of Chemical."
+  },
+  {
+    "career_name": "B.Tech Aerospace Engineering",
+    "category": "Engineering",
+    "sub_category": "Aerospace",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "aerospace"
+    ],
+    "keywords": [
+      "b.tech aerospace engineering",
+      "btech",
+      "engineering",
+      "aerospace"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Aerospace Engineering focuses on core engineering principles and applied technologies in the field of Aerospace."
+  },
+  {
+    "career_name": "B.Tech Automotive Engineering",
+    "category": "Engineering",
+    "sub_category": "Automobile",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "automobile"
+    ],
+    "keywords": [
+      "b.tech automotive engineering",
+      "btech",
+      "engineering",
+      "automobile"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Automotive Engineering focuses on core engineering principles and applied technologies in the field of Automobile."
+  },
+  {
+    "career_name": "B.Tech Biomedical Engineering",
+    "category": "Engineering",
+    "sub_category": "Biomedical",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "biomedical"
+    ],
+    "keywords": [
+      "b.tech biomedical engineering",
+      "btech",
+      "engineering",
+      "biomedical"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Biomedical Engineering focuses on core engineering principles and applied technologies in the field of Biomedical."
+  },
+  {
+    "career_name": "B.Tech Biotechnology",
+    "category": "Engineering",
+    "sub_category": "Biotech",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "biotech"
+    ],
+    "keywords": [
+      "b.tech biotechnology",
+      "btech",
+      "engineering",
+      "biotech"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Biotechnology focuses on core engineering principles and applied technologies in the field of Biotech."
+  },
+  {
+    "career_name": "B.Tech Environmental Engineering",
+    "category": "Engineering",
+    "sub_category": "Environmental",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "environmental"
+    ],
+    "keywords": [
+      "b.tech environmental engineering",
+      "btech",
+      "engineering",
+      "environmental"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Environmental Engineering focuses on core engineering principles and applied technologies in the field of Environmental."
+  },
+  {
+    "career_name": "B.Tech Industrial Engineering",
+    "category": "Engineering",
+    "sub_category": "Industrial",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "industrial"
+    ],
+    "keywords": [
+      "b.tech industrial engineering",
+      "btech",
+      "engineering",
+      "industrial"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Industrial Engineering focuses on core engineering principles and applied technologies in the field of Industrial."
+  },
+  {
+    "career_name": "B.Tech Petroleum Engineering",
+    "category": "Engineering",
+    "sub_category": "Petroleum",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "petroleum"
+    ],
+    "keywords": [
+      "b.tech petroleum engineering",
+      "btech",
+      "engineering",
+      "petroleum"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Petroleum Engineering focuses on core engineering principles and applied technologies in the field of Petroleum."
+  },
+  {
+    "career_name": "B.Tech Mining Engineering",
+    "category": "Engineering",
+    "sub_category": "Mining",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "mining"
+    ],
+    "keywords": [
+      "b.tech mining engineering",
+      "btech",
+      "engineering",
+      "mining"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Mining Engineering focuses on core engineering principles and applied technologies in the field of Mining."
+  },
+  {
+    "career_name": "B.Tech Metallurgical Engineering",
+    "category": "Engineering",
+    "sub_category": "Metallurgy",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "metallurgy"
+    ],
+    "keywords": [
+      "b.tech metallurgical engineering",
+      "btech",
+      "engineering",
+      "metallurgy"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Metallurgical Engineering focuses on core engineering principles and applied technologies in the field of Metallurgy."
+  },
+  {
+    "career_name": "B.Tech Agricultural Engineering",
+    "category": "Engineering",
+    "sub_category": "Agriculture",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "agriculture"
+    ],
+    "keywords": [
+      "b.tech agricultural engineering",
+      "btech",
+      "engineering",
+      "agriculture"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Agricultural Engineering focuses on core engineering principles and applied technologies in the field of Agriculture."
+  },
+  {
+    "career_name": "B.Tech Food Technology",
+    "category": "Engineering",
+    "sub_category": "Food Tech",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "food_tech"
+    ],
+    "keywords": [
+      "b.tech food technology",
+      "btech",
+      "engineering",
+      "food tech"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Food Technology focuses on core engineering principles and applied technologies in the field of Food Tech."
+  },
+  {
+    "career_name": "B.Tech Marine Engineering",
+    "category": "Engineering",
+    "sub_category": "Marine",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "marine"
+    ],
+    "keywords": [
+      "b.tech marine engineering",
+      "btech",
+      "engineering",
+      "marine"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Marine Engineering focuses on core engineering principles and applied technologies in the field of Marine."
+  },
+  {
+    "career_name": "B.Tech Textile Engineering",
+    "category": "Engineering",
+    "sub_category": "Textile",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "textile"
+    ],
+    "keywords": [
+      "b.tech textile engineering",
+      "btech",
+      "engineering",
+      "textile"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Textile Engineering focuses on core engineering principles and applied technologies in the field of Textile."
+  },
+  {
+    "career_name": "B.Tech Instrumentation Engineering",
+    "category": "Engineering",
+    "sub_category": "Instrumentation",
+    "difficulty_level": "Hard",
+    "interests": [
+      "engineering",
+      "technology",
+      "problem solving",
+      "innovation"
+    ],
+    "tags": [
+      "btech",
+      "engineering",
+      "instrumentation"
+    ],
+    "keywords": [
+      "b.tech instrumentation engineering",
+      "btech",
+      "engineering",
+      "instrumentation"
+    ],
+    "required_skills": [
+      "Mathematics",
+      "Problem Solving",
+      "Engineering Fundamentals",
+      "Programming Basics"
+    ],
+    "optional_skills": [
+      "Research",
+      "Project Management",
+      "Internships"
+    ],
+    "tools": [
+      "MATLAB",
+      "Python",
+      "AutoCAD"
+    ],
+    "career_description": "B.Tech Instrumentation Engineering focuses on core engineering principles and applied technologies in the field of Instrumentation."
   }
 ]

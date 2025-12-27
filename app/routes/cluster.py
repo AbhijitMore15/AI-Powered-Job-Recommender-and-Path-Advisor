@@ -1,24 +1,54 @@
 from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
-from app.utils.clustering_engine import train_clusters, get_cluster_for_career
+from app.utils.clustering_engine import (
+    train_clusters,
+    load_clusters,
+    get_cluster_for_career
+)
 
-router = APIRouter()
+router = APIRouter(prefix="/clusters", tags=["Clustering"])
 
-# Train once at startup
-train_clusters(n_clusters=10)
 
-class ClusterRequest(BaseModel):
-    career_name: str
+@router.post("/train")
+def train_cluster_endpoint(n_clusters: int = 10):
+    """
+    Train career clusters (admin / dev use).
+    """
+    clusters = train_clusters(n_clusters=n_clusters)
+    return {
+        "message": "Clusters trained successfully",
+        "total_clusters": len(clusters)
+    }
 
-@router.post("/")
-def career_cluster(payload: ClusterRequest):
-    result = get_cluster_for_career(payload.career_name)
+
+@router.get("/")
+def get_all_clusters():
+    """
+    Return all career clusters.
+    """
+    try:
+        clusters = load_clusters()
+        return {
+            "total_clusters": len(clusters),
+            "clusters": clusters
+        }
+    except FileNotFoundError:
+        raise HTTPException(
+            status_code=404,
+            detail="Clusters not trained yet"
+        )
+
+
+@router.get("/{career_name}")
+def get_cluster_for_single_career(career_name: str):
+    """
+    Get cluster info for a specific career.
+    """
+    result = get_cluster_for_career(career_name)
 
     if not result:
-        raise HTTPException(status_code=404, detail="Career not found in clusters")
+        raise HTTPException(
+            status_code=404,
+            detail="Career not found in any cluster"
+        )
 
-    return {
-        "career": payload.career_name,
-        "cluster_id": result["cluster_id"],
-        "cluster_careers": result["careers"]
-    }
+    return result

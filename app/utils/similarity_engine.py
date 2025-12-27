@@ -1,50 +1,89 @@
+import os
+import pickle
+from typing import List, Tuple
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import pickle
-import os
+
+from app.utils.data_loader import load_careers_json
 
 DATA_DIR = "app/data"
-VEC_PATH = os.path.join(DATA_DIR, "career_vectorizer.pkl")
-MAT_PATH = os.path.join(DATA_DIR, "career_vectors.pkl")
+VECTORIZER_PATH = os.path.join(DATA_DIR, "tfidf_vectorizer.pkl")
+MATRIX_PATH = os.path.join(DATA_DIR, "tfidf_matrix.pkl")
+NAMES_PATH = os.path.join(DATA_DIR, "career_names.pkl")
 
-def build_career_corpus(careers):
+
+# ----------------------------
+# TRAINING
+# ----------------------------
+def train_similarity(careers: list | None = None):
+    """
+    Train TF-IDF similarity model.
+    """
+    if careers is None:
+        careers = load_careers_json()
+
     texts = []
     names = []
 
     for c in careers:
         combined = " ".join(
-            c.get("interests", []) +
-            c.get("tags", []) +
-            c.get("keywords", []) +
-            c.get("required_skills", [])
+            c.get("tags", [])
+            + c.get("keywords", [])
+            + c.get("interests", [])
+            + c.get("required_skills", [])
         )
-        texts.append(combined.lower())
+        texts.append(combined)
         names.append(c["career_name"])
 
-    return texts, names
-
-def train_similarity(careers):
-    texts, names = build_career_corpus(careers)
-
-    vectorizer = TfidfVectorizer(stop_words="english", max_features=5000)
+    vectorizer = TfidfVectorizer(stop_words="english")
     matrix = vectorizer.fit_transform(texts)
 
-    with open(VEC_PATH, "wb") as f:
+    os.makedirs(DATA_DIR, exist_ok=True)
+
+    with open(VECTORIZER_PATH, "wb") as f:
         pickle.dump(vectorizer, f)
 
-    with open(MAT_PATH, "wb") as f:
-        pickle.dump((matrix, names), f)
+    with open(MATRIX_PATH, "wb") as f:
+        pickle.dump(matrix, f)
 
-def load_similarity():
-    with open(VEC_PATH, "rb") as f:
-        vectorizer = pickle.load(f)
-
-    with open(MAT_PATH, "rb") as f:
-        matrix, names = pickle.load(f)
+    with open(NAMES_PATH, "wb") as f:
+        pickle.dump(names, f)
 
     return vectorizer, matrix, names
 
-def get_similar_careers(career_name, top_n=5):
+
+# ----------------------------
+# LOADING
+# ----------------------------
+def load_similarity():
+    if not os.path.exists(MATRIX_PATH):
+        raise RuntimeError(
+            "Similarity model not trained. Call train_similarity() first."
+        )
+
+    with open(VECTORIZER_PATH, "rb") as f:
+        vectorizer = pickle.load(f)
+
+    with open(MATRIX_PATH, "rb") as f:
+        matrix = pickle.load(f)
+
+    with open(NAMES_PATH, "rb") as f:
+        names = pickle.load(f)
+
+    return vectorizer, matrix, names
+
+
+# ----------------------------
+# SIMILAR CAREERS API HELPER ✅
+# ----------------------------
+def get_similar_careers(
+    career_name: str,
+    top_k: int = 5
+) -> List[Tuple[str, float]]:
+    """
+    Return top-K similar careers based on cosine similarity.
+    """
     _, matrix, names = load_similarity()
 
     if career_name not in names:
@@ -54,16 +93,12 @@ def get_similar_careers(career_name, top_n=5):
     scores = cosine_similarity(matrix[idx], matrix)[0]
 
     ranked = sorted(
-        enumerate(scores),
+        zip(names, scores),
         key=lambda x: x[1],
         reverse=True
     )
 
-    results = []
-    for i, score in ranked[1: top_n + 1]:
-        results.append({
-            "career": names[i],
-            "score": round(float(score), 3)
-        })
+    # remove self
+    ranked = [(n, float(s)) for n, s in ranked if n != career_name]
 
-    return results
+    return ranked[:top_k]

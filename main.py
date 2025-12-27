@@ -14,7 +14,7 @@ from app.routes.advisor import router as advisor_router
 from app.routes.similar import router as similar_router
 from app.routes.similar import router as similar_router
 from app.routes.cluster import router as cluster_router
-
+from app.routes.graph import router as graph_router
 
 app = FastAPI(title="Career AI Backend")
 
@@ -43,6 +43,7 @@ app.include_router(confidence_router, prefix="/confidence", tags=["Confidence"])
 app.include_router(advisor_router, prefix="/advisor", tags=["Advisor"])
 app.include_router(similar_router, prefix="/similar", tags=["Similarity"])
 app.include_router(cluster_router, prefix="/cluster", tags=["Clustering"])
+app.include_router(graph_router, prefix="/graph", tags=["Graph"])
 
 
 @app.get("/")

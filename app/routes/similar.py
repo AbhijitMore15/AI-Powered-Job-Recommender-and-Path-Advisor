@@ -1,26 +1,12 @@
-from fastapi import APIRouter, HTTPException
-from pydantic import BaseModel
-from app.utils.data_loader import load_careers_json
+from fastapi import APIRouter
+from app.data.loader import CAREERS
 from app.utils.similarity_engine import train_similarity, get_similar_careers
 
-router = APIRouter()
-CAREERS = load_careers_json()
+router = APIRouter(prefix="/similar", tags=["Similarity"])
 
-# Train similarity once on startup
+# Train similarity model once
 train_similarity(CAREERS)
 
-class SimilarRequest(BaseModel):
-    career_name: str
-    top_n: int = 5
-
-@router.post("/")
-def similar_careers(payload: SimilarRequest):
-    results = get_similar_careers(payload.career_name, payload.top_n)
-
-    if not results:
-        raise HTTPException(status_code=404, detail="Career not found")
-
-    return {
-        "career": payload.career_name,
-        "similar_careers": results
-    }
+@router.get("/{career_name}")
+def similar_careers(career_name: str, top_k: int = 5):
+    return get_similar_careers(career_name, top_k)

@@ -10,7 +10,7 @@ CAREERS = load_careers_json()
 def confidence_check(payload: ConfidenceRequest):
 
     career = next(
-        (c for c in CAREERS if c["career_name"].lower() == payload.career_name.lower()),
+        (c for c in CAREERS if c["career_name"].lower() == payload.career.lower()),
         None
     )
 

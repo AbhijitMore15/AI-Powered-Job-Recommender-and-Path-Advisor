@@ -1,8 +1,9 @@
+# app/models/confidence_models.py
 from pydantic import BaseModel
 from typing import List
 
 class ConfidenceRequest(BaseModel):
-    career_name: str
+    career: str
     user_skills: List[str]
 
 class ConfidenceResponse(BaseModel):

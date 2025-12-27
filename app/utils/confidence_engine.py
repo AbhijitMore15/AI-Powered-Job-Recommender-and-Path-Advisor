@@ -1,28 +1,40 @@
-from typing import List, Dict
+# app/utils/confidence_engine.py
+from typing import List, Tuple
 
-def calculate_confidence(required_skills: List[str], user_skills: List[str]) -> Dict:
+def calculate_confidence(
+    user_skills: List[str],
+    required_skills: List[str]
+) -> Tuple[int, str, str]:
+    """
+    Calculates how well user skills match career requirements.
+    Returns:
+    - fit_score (0–100)
+    - confidence_level (Weak / Moderate / Strong Fit)
+    - explanation (human-readable)
+    """
+
     if not required_skills:
-        return {
-            "fit_score": 0,
-            "confidence_level": "Unknown",
-            "explanation": "No required skills defined for this career."
-        }
+        return 0, "Unknown", "No required skills defined for this career."
 
-    required = set(s.lower() for s in required_skills)
-    user = set(s.lower() for s in user_skills)
+    user_set = {s.lower() for s in user_skills}
+    required_set = {s.lower() for s in required_skills}
 
-    matched = len(required & user)
-    score = int((matched / len(required)) * 100)
+    matched = user_set.intersection(required_set)
+    match_count = len(matched)
+    total = len(required_set)
 
-    if score >= 70:
+    fit_score = int((match_count / total) * 100) if total > 0 else 0
+
+    if fit_score >= 70:
         level = "Strong Fit"
-    elif score >= 40:
+    elif fit_score >= 40:
         level = "Moderate Fit"
     else:
         level = "Weak Fit"
 
-    return {
-        "fit_score": score,
-        "confidence_level": level,
-        "explanation": f"You match {matched} out of {len(required)} core skills."
-    }
+    explanation = (
+        f"You match {match_count} out of {total} core skills. "
+        f"Matched skills: {', '.join(matched) if matched else 'None'}."
+    )
+
+    return fit_score, level, explanation

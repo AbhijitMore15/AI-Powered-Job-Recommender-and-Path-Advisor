@@ -12,6 +12,9 @@ from app.routes.generator import router as generator_router
 from app.routes.confidence import router as confidence_router
 from app.routes.advisor import router as advisor_router
 from app.routes.similar import router as similar_router
+from app.routes.similar import router as similar_router
+from app.routes.cluster import router as cluster_router
+
 
 app = FastAPI(title="Career AI Backend")
 
@@ -38,7 +41,9 @@ app.include_router(careers_router, prefix="/careers", tags=["Careers"])
 app.include_router(generator_router, prefix="/generate", tags=["Generator"])
 app.include_router(confidence_router, prefix="/confidence", tags=["Confidence"])
 app.include_router(advisor_router, prefix="/advisor", tags=["Advisor"])
-app.include_router(similar_router, prefix="/careers", tags=["Similarity"])
+app.include_router(similar_router, prefix="/similar", tags=["Similarity"])
+app.include_router(cluster_router, prefix="/cluster", tags=["Clustering"])
+
 
 @app.get("/")
 def home():

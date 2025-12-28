@@ -1,72 +1,67 @@
-# app/utils/comparison_engine.py
-from typing import Dict, List
-from app.utils.ranking_engine import (
-    compute_skill_match,
-    compute_interest_match,
-    compute_effort_score
-)
+from typing import List, Dict, Optional
 from app.utils.confidence_engine import calculate_confidence
 
 
-def compare_two_careers(
-    career_a: Dict,
-    career_b: Dict,
+def find_career_by_name(careers: List[Dict], name: str) -> Optional[Dict]:
+    """
+    Find a career dict by name (case-insensitive).
+    """
+    name = name.lower()
+    for career in careers:
+        if career.get("career_name", "").lower() == name:
+            return career
+    return None
+
+
+def compare_careers(
+    careers: List[Dict],
+    career_names: List[str],
     user_skills: List[str],
-    interest: str,
-    effort: int
+    effort: int = 3,
 ) -> Dict:
+    """
+    Compare multiple careers and recommend the best one
+    based on confidence (skill match).
+    """
 
-    def score(career: Dict) -> Dict:
-        skill = compute_skill_match(career, user_skills)
-        interest_score = compute_interest_match(career, interest)
-        confidence = calculate_confidence(
-            career_data=career,
-            user_skills=user_skills
-        )
-        effort_score = compute_effort_score(career, effort)
+    comparisons: List[Dict] = []
 
-        final = (
-            0.4 * skill +
-            0.25 * interest_score +
-            0.25 * confidence["fit_score"] +
-            0.1 * effort_score
-        )
+    for name in career_names:
+        career = find_career_by_name(careers, name)
+        if not career:
+            continue
 
+        # ✅ CORRECT call — positional, matches confidence_engine exactly
+        confidence = calculate_confidence(career, user_skills)
+
+        comparisons.append({
+            "career": career["career_name"],
+            "fit_score": confidence["fit_score"],
+            "confidence_level": confidence["confidence_level"],
+            "confidence_explanation": confidence["explanation"],
+            "matched_skills": confidence["matched_skills"],
+            "missing_skills": confidence["missing_skills"],
+            "priority_skills": confidence["priority_skills"],
+            "summary": (
+                f"{career['career_name']} has a "
+                f"{confidence['confidence_level']} based on your current skills."
+            )
+        })
+
+    if not comparisons:
         return {
-            "final": round(final, 2),
-            "skill": round(skill, 2),
-            "interest": round(interest_score, 2),
-            "confidence": round(confidence["fit_score"], 2),
-            "effort": round(effort_score, 2)
+            "comparison": [],
+            "recommended": None,
+            "why_selected": "No valid careers were found for comparison."
         }
 
-    a = score(career_a)
-    b = score(career_b)
-
-    winner = career_a["career_name"] if a["final"] > b["final"] else career_b["career_name"]
-
-    explanation = []
-    if a["skill"] != b["skill"]:
-        explanation.append("Skill match differs significantly.")
-    if a["interest"] != b["interest"]:
-        explanation.append("Interest alignment favors one career.")
-    if a["confidence"] != b["confidence"]:
-        explanation.append("Confidence / readiness level is different.")
-    if a["effort"] != b["effort"]:
-        explanation.append("Effort vs difficulty balance differs.")
-
-    if not explanation:
-        explanation.append("Both careers are similarly suitable.")
+    best = max(comparisons, key=lambda x: x["fit_score"])
 
     return {
-        "career_a": {
-            "name": career_a["career_name"],
-            "scores": a
-        },
-        "career_b": {
-            "name": career_b["career_name"],
-            "scores": b
-        },
-        "winner": winner,
-        "why": explanation
+        "comparison": comparisons,
+        "recommended": best["career"],
+        "why_selected": (
+            f"{best['career']} is recommended due to the highest "
+            f"fit score ({best['fit_score']})."
+        )
     }

@@ -5,7 +5,6 @@ from app.routes.auth import router as auth_router
 from app.routes.assessment import router as assessment_router
 from app.routes.recommend import router as recommend_router
 from app.routes.roadmap import router as roadmap_router
-from app.routes.compare import router as compare_router
 from app.routes.profile import router as profile_router
 from app.routes.careers import router as careers_router
 from app.routes.generator import router as generator_router
@@ -15,6 +14,7 @@ from app.routes.similar import router as similar_router
 from app.routes.similar import router as similar_router
 from app.routes.cluster import router as cluster_router
 from app.routes.graph import router as graph_router
+from app.routes.compare import router as compare_router
 
 app = FastAPI(title="Career AI Backend")
 
@@ -31,20 +31,19 @@ app.add_middleware(
 )
 
 # Register routes
-app.include_router(auth_router, prefix="/auth", tags=["Auth"])
+app.include_router(auth_router, tags=["Auth"])
 app.include_router(assessment_router, prefix="/assessment", tags=["Assessment"])
-app.include_router(recommend_router, prefix="/recommend", tags=["Recommend"])
-app.include_router(roadmap_router, prefix="/roadmap", tags=["Roadmap"])
-app.include_router(compare_router, prefix="/compare", tags=["Compare"])
-app.include_router(profile_router, prefix="/profile", tags=["Profile"])
-app.include_router(careers_router, prefix="/careers", tags=["Careers"])
-app.include_router(generator_router, prefix="/generate", tags=["Generator"])
-app.include_router(confidence_router, prefix="/confidence", tags=["Confidence"])
-app.include_router(advisor_router, prefix="/advisor", tags=["Advisor"])
-app.include_router(similar_router, prefix="/similar", tags=["Similarity"])
-app.include_router(cluster_router, prefix="/cluster", tags=["Clustering"])
-app.include_router(graph_router, prefix="/graph", tags=["Graph"])
-
+app.include_router(recommend_router, tags=["Recommend"])
+app.include_router(roadmap_router, tags=["Roadmap"])
+app.include_router(profile_router, tags=["Profile"])
+app.include_router(careers_router, tags=["Careers"])
+app.include_router(generator_router, tags=["Generator"])
+app.include_router(confidence_router, tags=["Confidence"])
+app.include_router(advisor_router, tags=["Advisor"])
+app.include_router(similar_router, tags=["Similarity"])
+app.include_router(cluster_router, tags=["Clustering"])
+app.include_router(graph_router, tags=["Graph"])
+app.include_router(compare_router, tags=["Career Comparison"])
 
 @app.get("/")
 def home():

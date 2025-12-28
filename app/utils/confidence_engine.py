@@ -1,25 +1,40 @@
-# app/utils/confidence_engine.py
-from typing import List, Tuple
+from typing import List, Dict
+
 
 def calculate_confidence(
-    user_skills: List[str],
-    required_skills: List[str]
-) -> Tuple[int, str, str]:
+    career: Dict,
+    user_skills: List[str]
+) -> Dict:
     """
     Calculates how well user skills match career requirements.
-    Returns:
+
+    Returns a dict with:
     - fit_score (0–100)
     - confidence_level (Weak / Moderate / Strong Fit)
-    - explanation (human-readable)
+    - explanation
+    - matched_skills
+    - missing_skills
+    - priority_skills
     """
 
+    required_skills = career.get("required_skills", [])
+
     if not required_skills:
-        return 0, "Unknown", "No required skills defined for this career."
+        return {
+            "fit_score": 0,
+            "confidence_level": "Unknown",
+            "explanation": "No required skills defined for this career.",
+            "matched_skills": [],
+            "missing_skills": [],
+            "priority_skills": []
+        }
 
     user_set = {s.lower() for s in user_skills}
     required_set = {s.lower() for s in required_skills}
 
     matched = user_set.intersection(required_set)
+    missing = required_set - matched
+
     match_count = len(matched)
     total = len(required_set)
 
@@ -34,7 +49,14 @@ def calculate_confidence(
 
     explanation = (
         f"You match {match_count} out of {total} core skills. "
-        f"Matched skills: {', '.join(matched) if matched else 'None'}."
+        f"Matched skills: {', '.join(sorted(matched)) if matched else 'None'}."
     )
 
-    return fit_score, level, explanation
+    return {
+        "fit_score": fit_score,
+        "confidence_level": level,
+        "explanation": explanation,
+        "matched_skills": sorted(matched),
+        "missing_skills": sorted(missing),
+        "priority_skills": sorted(missing)[:3]
+    }

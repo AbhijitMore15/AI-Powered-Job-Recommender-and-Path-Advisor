@@ -1,7 +1,5 @@
-import json
-from pathlib import Path
+# app/utils/loader.py
 
-DATA_PATH = Path(__file__).parent / "careers.json"
+from app.utils.data_loader import CAREERS, load_careers
 
-with open(DATA_PATH, "r", encoding="utf-8") as f:
-    CAREERS = json.load(f)
+__all__ = ["CAREERS", "load_careers"]

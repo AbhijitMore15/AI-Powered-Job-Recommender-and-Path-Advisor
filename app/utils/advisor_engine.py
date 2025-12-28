@@ -1,74 +1,67 @@
-# app/utils/advisor_engine.py
-from typing import List, Dict
-from app.utils.data_loader import load_careers_json
-from app.utils.ranking_engine import rank_careers
-from app.utils.confidence_engine import calculate_confidence
-from app.utils.roadmap_engine import create_full_roadmap
+from typing import Dict, List
 
-# Load dataset ONCE
-CAREERS = load_careers_json()
+from app.utils.confidence_engine import calculate_confidence
+from app.utils.explainability_engine import generate_explanation
+from app.utils.roadmap_engine import create_full_roadmap
+from app.utils.data_loader import CAREERS
 
 
 def ai_advisor(
     interest: str,
     skills: List[str],
-    experience_level: str = "beginner",
-    effort: int = 3,
+    effort: int,
     compare: bool = False
 ) -> Dict:
-    """
-    Main advisor brain.
-    """
 
-    # Rank careers based on interest + skills
-    ranked = rank_careers(
-        careers=CAREERS,
-        interest=interest,
-        user_skills=skills,
-        effort=effort
-    )
+    interest = interest.lower()
 
-    if not ranked:
+    filtered = [
+        c for c in CAREERS
+        if interest in " ".join(c.get("keywords", [])).lower()
+    ]
+
+    if not filtered:
         return {
-            "career": None,
-            "why_selected": "No suitable career found for the given interest."
+            "detail": "No suitable career found for the given interest."
         }
 
-    # Pick top career
-    selected = ranked[0]
+    scored = []
 
-    # Confidence score
-    confidence = calculate_confidence(
-        career=selected,
-        user_skills=skills
+    for career in filtered:
+        confidence = calculate_confidence(
+            career=career,
+            user_skills=skills
+        )
+
+        scored.append({
+            "career": career,
+            "confidence": confidence
+        })
+
+    scored.sort(
+        key=lambda x: x["confidence"]["fit_score"],
+        reverse=True
     )
 
-    # Full AI roadmap (Day 12+)
+    selected = scored[0]["career"]
+    confidence = scored[0]["confidence"]
+
     roadmap = create_full_roadmap(
         career=selected,
         user_skills=skills,
         effort=effort
     )
 
-    response = {
+    explanation = generate_explanation(
+        career_data=selected,
+        confidence=confidence,
+        interest=interest,
+        effort=effort
+    )
+
+    return {
         "career": selected["career_name"],
-        "experience_level": experience_level,
-        "why_selected": (
-            f"Selected based on your interest in {interest} "
-            f"and alignment with required skills."
-        ),
         "confidence": confidence,
+        "explanation": explanation,
         "roadmap": roadmap
     }
-
-    # Optional comparison (Day 13 feature)
-    if compare and len(ranked) > 1:
-        response["comparison"] = [
-            {
-                "career": c["career_name"],
-                "confidence": calculate_confidence(c, skills)
-            }
-            for c in ranked[1:3]
-        ]
-
-    return response

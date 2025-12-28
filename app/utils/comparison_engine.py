@@ -1,67 +1,78 @@
-from typing import List, Dict, Optional
+from typing import List, Dict
 from app.utils.confidence_engine import calculate_confidence
-
-
-def find_career_by_name(careers: List[Dict], name: str) -> Optional[Dict]:
-    """
-    Find a career dict by name (case-insensitive).
-    """
-    name = name.lower()
-    for career in careers:
-        if career.get("career_name", "").lower() == name:
-            return career
-    return None
+from app.utils.similarity_engine import get_similar_careers
+from app.utils.clustering_engine import get_cluster_for_career
 
 
 def compare_careers(
     careers: List[Dict],
     career_names: List[str],
     user_skills: List[str],
-    effort: int = 3,
+    effort: int
 ) -> Dict:
     """
-    Compare multiple careers and recommend the best one
-    based on confidence (skill match).
+    Compare multiple careers for a user.
+    Does NOT modify any shared engine contracts.
     """
 
-    comparisons: List[Dict] = []
+    results = []
 
-    for name in career_names:
-        career = find_career_by_name(careers, name)
-        if not career:
-            continue
+    for career in careers:
+        # ----------------------------
+        # Confidence (SAFE handling)
+        # ----------------------------
+        confidence_result = calculate_confidence(
+            user_skills=user_skills,
+            required_skills=career.get("required_skills", [])
+        )
 
-        # ✅ CORRECT call — positional, matches confidence_engine exactly
-        confidence = calculate_confidence(career, user_skills)
-
-        comparisons.append({
-            "career": career["career_name"],
-            "fit_score": confidence["fit_score"],
-            "confidence_level": confidence["confidence_level"],
-            "confidence_explanation": confidence["explanation"],
-            "matched_skills": confidence["matched_skills"],
-            "missing_skills": confidence["missing_skills"],
-            "priority_skills": confidence["priority_skills"],
-            "summary": (
-                f"{career['career_name']} has a "
-                f"{confidence['confidence_level']} based on your current skills."
+        # Handle tuple return safely
+        if isinstance(confidence_result, tuple):
+            fit_score = confidence_result[0]
+            confidence_level = confidence_result[1]
+            explanation = confidence_result[2]
+        else:
+            fit_score = confidence_result.get("score", 0)
+            confidence_level = confidence_result.get("level", "Unknown")
+            explanation = confidence_result.get(
+                "explanation",
+                confidence_result.get("reason", "")
             )
+
+        # ----------------------------
+        # Similar careers
+        # ----------------------------
+        similar = get_similar_careers(
+            career_name=career["career_name"],
+            top_k=3
+        )
+
+        # ----------------------------
+        # Cluster info
+        # ----------------------------
+        cluster = get_cluster_for_career(career["career_name"])
+
+        # ----------------------------
+        # Effort adjustment (simple)
+        # ----------------------------
+        adjusted_score = fit_score - (effort * 5)
+
+        results.append({
+            "career": career["career_name"],
+            "fit_score": fit_score,
+            "adjusted_score": max(adjusted_score, 0),
+            "confidence_level": confidence_level,
+            "confidence_explanation": explanation,
+            "cluster": cluster,
+            "similar_careers": [c[0] for c in similar]
         })
 
-    if not comparisons:
-        return {
-            "comparison": [],
-            "recommended": None,
-            "why_selected": "No valid careers were found for comparison."
-        }
-
-    best = max(comparisons, key=lambda x: x["fit_score"])
-
     return {
-        "comparison": comparisons,
-        "recommended": best["career"],
-        "why_selected": (
-            f"{best['career']} is recommended due to the highest "
-            f"fit score ({best['fit_score']})."
+        "input_careers": career_names,
+        "effort_level": effort,
+        "comparison": sorted(
+            results,
+            key=lambda x: x["adjusted_score"],
+            reverse=True
         )
     }

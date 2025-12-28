@@ -1,17 +1,10 @@
 # app/routes/advisor.py
+
 from fastapi import APIRouter
-from pydantic import BaseModel
-from typing import List, Optional
+from app.models.advisor_models import AdvisorRequest
 from app.utils.advisor_engine import ai_advisor
 
-router = APIRouter()
-
-class AdvisorRequest(BaseModel):
-    interest: str
-    skills: list[str]
-    experience_level: str = "beginner"
-    effort: int = 3
-    compare: Optional[bool] = False
+router = APIRouter(prefix="/advisor", tags=["Advisor"])
 
 
 @router.post("/")

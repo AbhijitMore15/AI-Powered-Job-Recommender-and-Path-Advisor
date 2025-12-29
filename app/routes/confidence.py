@@ -1,3 +1,5 @@
+# app/routes/confidence.py
+
 from fastapi import APIRouter, HTTPException
 from app.models.confidence_models import ConfidenceRequest, ConfidenceResponse
 from app.utils.data_loader import load_careers_json
@@ -19,6 +21,7 @@ def confidence_check(payload: ConfidenceRequest):
 
     required_skills = career.get("required_skills", [])
 
+    # ✅ signature untouched
     fit_score, confidence_level, explanation = calculate_confidence(
         payload.user_skills,
         required_skills

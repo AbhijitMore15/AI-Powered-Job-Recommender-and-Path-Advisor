@@ -13,9 +13,9 @@ from app.routes.advisor import router as advisor_router
 from app.routes.similar import router as similar_router
 from app.routes.similar import router as similar_router
 from app.routes.cluster import router as cluster_router
-from app.routes.graph import router as graph_router
 from app.routes.compare import router as compare_router
 from app.routes.explain import router as explain_router
+from app.routes.graph import router as graph_router
 
 app = FastAPI(title="Career AI Backend")
 
@@ -43,9 +43,9 @@ app.include_router(confidence_router, tags=["Confidence"])
 app.include_router(advisor_router, tags=["Advisor"])
 app.include_router(similar_router, tags=["Similarity"])
 app.include_router(cluster_router, tags=["Clustering"])
-app.include_router(graph_router, tags=["Graph"])
 app.include_router(compare_router, tags=["Career Comparison"])
 app.include_router(explain_router)
+app.include_router(graph_router)
 
 @app.get("/")
 def home():

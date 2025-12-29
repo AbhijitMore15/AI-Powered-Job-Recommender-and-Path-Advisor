@@ -1,8 +1,8 @@
 from pydantic import BaseModel
-from typing import List
+from typing import List, Optional
 
 class RecommendRequest(BaseModel):
-    interest: str
+    interests: Optional[List[str]] = None
 
 class ExtraSuggestion(BaseModel):
     career: str

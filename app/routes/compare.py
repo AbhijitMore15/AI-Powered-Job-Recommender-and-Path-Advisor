@@ -3,7 +3,7 @@ from app.models.compare_models import CompareRequest
 from app.utils.comparison_engine import compare_careers
 from app.utils.data_loader import CAREERS
 
-router = APIRouter(prefix="/compare", tags=["Compare"])
+router = APIRouter(prefix="/compare", tags=["Career Comparison"])
 
 
 @router.post("")

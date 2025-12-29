@@ -17,9 +17,6 @@ NAMES_PATH = os.path.join(DATA_DIR, "career_names.pkl")
 # TRAINING
 # ----------------------------
 def train_similarity(careers: list | None = None):
-    """
-    Train TF-IDF similarity model.
-    """
     if careers is None:
         careers = load_careers_json()
 
@@ -58,9 +55,7 @@ def train_similarity(careers: list | None = None):
 # ----------------------------
 def load_similarity():
     if not os.path.exists(MATRIX_PATH):
-        raise RuntimeError(
-            "Similarity model not trained. Call train_similarity() first."
-        )
+        raise RuntimeError("Similarity model not trained")
 
     with open(VECTORIZER_PATH, "rb") as f:
         vectorizer = pickle.load(f)
@@ -75,15 +70,13 @@ def load_similarity():
 
 
 # ----------------------------
-# SIMILAR CAREERS API HELPER ✅
+# ORIGINAL FUNCTION (KEEP)
 # ----------------------------
 def get_similar_careers(
     career_name: str,
     top_k: int = 5
 ) -> List[Tuple[str, float]]:
-    """
-    Return top-K similar careers based on cosine similarity.
-    """
+
     _, matrix, names = load_similarity()
 
     if career_name not in names:
@@ -98,7 +91,20 @@ def get_similar_careers(
         reverse=True
     )
 
-    # remove self
     ranked = [(n, float(s)) for n, s in ranked if n != career_name]
-
     return ranked[:top_k]
+
+
+# ----------------------------
+# ✅ BACKWARD COMPATIBILITY WRAPPER
+# ----------------------------
+def get_similarity_scores(
+    career_name: str,
+    top_k: int = 5
+) -> List[str]:
+    """
+    Wrapper so older engines don't break.
+    Returns only career names.
+    """
+    similar = get_similar_careers(career_name, top_k)
+    return [name for name, _ in similar]

@@ -14,7 +14,7 @@ def _skill_similarity_score(profile_skills: List[str], career: dict) -> float:
     inter = set(req).intersection(set(prof))
     return (len(inter) / len(req))  # 0..1
 
-def _interest_score(profile_interests: List[str], career: dict) -> float:
+def _interests_score(profile_interests: List[str], career: dict) -> float:
     cat = career.get("category","").lower()
     # crude match: do any interests appear in category or career_name
     for i in profile_interests:
@@ -24,7 +24,7 @@ def _interest_score(profile_interests: List[str], career: dict) -> float:
     return 0.0
 
 def score_profile_to_career(profile: dict, career: dict) -> float:
-    # blend: skill overlap (50%), priority/importance (30%), interest (20%)
+    # blend: skill overlap (50%), priority/importance (30%), interests (20%)
     skill_sim = _skill_similarity_score(profile.get("skills", []), career)
     # priority scores from compute_priority_scores (0-100) -> normalize to 0-1
     priorities = compute_priority_scores(career, profile.get("skills", []))
@@ -33,8 +33,8 @@ def score_profile_to_career(profile: dict, career: dict) -> float:
         avg_priority = sum(priorities.values()) / len(priorities.values()) / 100.0
     else:
         avg_priority = 0.0
-    interest = _interest_score(profile.get("interests", []), career)
-    final = 0.5 * skill_sim + 0.3 * avg_priority + 0.2 * interest
+    interests = _interests_score(profile.get("interests", []), career)
+    final = 0.5 * skill_sim + 0.3 * avg_priority + 0.2 * interests
     return round(final, 4)
 
 def recommend_for_profile(profile: dict, top_n:int=5) -> List[Tuple[float, dict]]:
@@ -54,7 +54,7 @@ def build_personalized_recommendations(profile: dict, top_n:int=5, effort:int=3)
         out.append({
             "career": career.get("career_name"),
             "score": round(float(score), 3),
-            "explanation": f"Matched by skills overlap and interest in {career.get('category','Unknown')}",
+            "explanation": f"Matched by skills overlap and interests in {career.get('category','Unknown')}",
             "roadmap_preview": {
                 "difficulty": career.get("difficulty_level", "Medium"),
                 "top_missing_skills": [s["skill"] for s in roadmap_full["skill_gap"][:4]],

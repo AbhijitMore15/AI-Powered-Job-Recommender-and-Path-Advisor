@@ -1,3 +1,5 @@
+# app/routes/recommend.py
+
 from fastapi import APIRouter
 from app.models.recommend_models import RecommendRequest, RecommendResponse
 from app.utils.data_loader import load_careers_json
@@ -6,7 +8,6 @@ from app.utils.memory_engine import remember_new_career
 import difflib
 
 router = APIRouter()
-
 CAREERS = load_careers_json()
 
 # Synonym mapper
@@ -24,8 +25,17 @@ SYNONYMS = {
     "business": "management",
 }
 
-def normalize(i: str):
-    return SYNONYMS.get(i.lower(), i.lower())
+# ✅ FIX: Accept list safely
+def normalize_interests(interests):
+    if not interests:
+        return ""
+
+    normalized = []
+    for i in interests:
+        if isinstance(i, str):
+            normalized.append(SYNONYMS.get(i.lower(), i.lower()))
+
+    return " ".join(normalized)
 
 def fuzzy(a, b):
     return difflib.SequenceMatcher(None, a.lower(), b.lower()).ratio()
@@ -33,12 +43,13 @@ def fuzzy(a, b):
 @router.post("/", response_model=RecommendResponse)
 def recommend_career(payload: RecommendRequest):
 
-    q = normalize(payload.interest)
+    # ✅ FIXED LINE
+    q = normalize_interests(payload.interests)
 
     # ML score
     ml_score, ml_best = ml_match(q)
 
-    # Fuzzy score fallback
+    # Fuzzy fallback
     best_fuzzy_score = 0
     best_fuzzy = None
     for c in CAREERS:
@@ -47,7 +58,7 @@ def recommend_career(payload: RecommendRequest):
             best_fuzzy_score = score
             best_fuzzy = c
 
-    # Combine scores
+    # Choose best
     if ml_score >= best_fuzzy_score:
         best = ml_best
         score = ml_score
@@ -55,11 +66,11 @@ def recommend_career(payload: RecommendRequest):
         best = best_fuzzy
         score = best_fuzzy_score
 
-    # If still too low → store in memory
+    # Store unknown interest
     if score < 0.25:
-        remember_new_career(q, payload.interest)
+        remember_new_career(q, payload.interests)
         return {
-            "career": f"No strong match found for '{payload.interest}'",
+            "career": f"No strong match found for '{q}'",
             "confidence": 0.0,
             "skills": [],
             "description": "Saved to memory for future learning.",

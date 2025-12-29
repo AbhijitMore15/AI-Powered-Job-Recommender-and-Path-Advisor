@@ -1,5 +1,6 @@
 # app/utils/sentence_generator.py
-from typing import Dict, Optional, List
+
+from typing import Dict, Optional, List, Union
 import random
 import hashlib
 
@@ -45,8 +46,8 @@ RESPONSIBILITY_TEMPLATES = [
 
 WHY_FIT_TEMPLATES = [
     "Because you have experience with {matching_skills}, {career} could be a strong fit for you.",
-    "Your interest in {user_interest} matches this role well, as {career} relies on {skills}.",
-    "If you enjoy {user_interest} and have skills like {matching_skills}, {career} offers a clear professional path."
+    "Your interest in {user_interests} matches this role well, as {career} relies on {skills}.",
+    "If you enjoy {user_interests} and have skills like {matching_skills}, {career} offers a clear professional path."
 ]
 
 SHORT_PITCH_TEMPLATES = [
@@ -65,6 +66,16 @@ def _join_list(items: List[str], limit: int = 4) -> str:
         return items[0]
     return ", ".join(items[:-1]) + " and " + items[-1]
 
+def _normalize_interests(interests: Optional[Union[str, List[str]]]) -> str:
+    """
+    Accepts None, string, or list[str] and returns safe string
+    """
+    if not interests:
+        return "this field"
+    if isinstance(interests, list):
+        return _join_list(interests, 3)
+    return str(interests)
+
 def apply_style(text: str, style: str) -> str:
     if style == "short":
         return text.split(".")[0] + "."
@@ -79,14 +90,12 @@ def apply_style(text: str, style: str) -> str:
 # --------------------------------------------------
 def generate_summary(
     career: Dict,
-    user_interest: Optional[str] = None,
+    user_interests: Optional[Union[str, List[str]]] = None,
     tone: str = "neutral",
     style: str = "normal"
 ) -> str:
 
     career_name = career.get("career_name", "This career")
-
-    # ✅ deterministic seed
     _seed_from_text(career_name)
 
     category = career.get("category", "Unknown")
@@ -140,7 +149,7 @@ def generate_responsibilities(career: Dict, style: str = "normal") -> str:
 def generate_why_fit(
     career: Dict,
     user_skills: List[str],
-    user_interest: Optional[str] = None,
+    user_interests: Optional[Union[str, List[str]]] = None,
     style: str = "normal"
 ) -> str:
 
@@ -155,7 +164,7 @@ def generate_why_fit(
     text = template.format(
         career=career.get("career_name", "This career"),
         matching_skills=matching_skills,
-        user_interest=user_interest or "this field",
+        user_interests=_normalize_interests(user_interests),
         skills=_join_list(career.get("required_skills", []), 4)
     )
 

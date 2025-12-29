@@ -5,7 +5,7 @@ from app.utils.confidence_engine import calculate_confidence
 
 def rank_careers(
     careers: List[Dict],
-    interest: str,
+    interests: str,
     user_skills: List[str],
     effort: int = 3
 ) -> List[Dict]:
@@ -16,7 +16,7 @@ def rank_careers(
     - confidence score
     """
 
-    interest_lower = interest.lower()
+    interest_lower = interests.lower()
     ranked = []
 
     for career in careers:

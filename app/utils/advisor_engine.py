@@ -1,67 +1,63 @@
-from typing import Dict, List
+# app/utils/advisor_engine.py
 
 from app.utils.confidence_engine import calculate_confidence
-from app.utils.explainability_engine import generate_explanation
-from app.utils.roadmap_engine import create_full_roadmap
-from app.utils.data_loader import CAREERS
+from app.utils.similarity_engine import get_similar_careers
+from app.utils.data_loader import load_careers_json
+
+CAREERS = load_careers_json()
 
 
 def ai_advisor(
-    interest: str,
-    skills: List[str],
-    effort: int,
-    compare: bool = False
-) -> Dict:
+    interests=None,
+    skills=None,
+    experience=0,
+    effort=3,
+    compare=False
+):
+    """
+    Core advisor engine
+    """
 
-    interest = interest.lower()
+    interests = interests or []
+    skills = skills or []
 
-    filtered = [
-        c for c in CAREERS
-        if interest in " ".join(c.get("keywords", [])).lower()
-    ]
+    scored_careers = []
 
-    if not filtered:
-        return {
-            "detail": "No suitable career found for the given interest."
-        }
-
-    scored = []
-
-    for career in filtered:
-        confidence = calculate_confidence(
-            career=career,
-            user_skills=skills
+    for career in CAREERS:
+        # ---------- CONFIDENCE ----------
+        confidence_result = calculate_confidence(
+            skills,
+            career.get("required_skills", [])
         )
 
-        scored.append({
-            "career": career,
-            "confidence": confidence
+        # 🔑 SAFE extraction (FIX)
+        fit_score = confidence_result.get("fit_score", 0)
+        confidence_level = confidence_result.get("confidence_level", "Unknown")
+        explanation = confidence_result.get("explanation", "")
+
+        scored_careers.append({
+            "career_name": career.get("career_name"),
+            "fit_score": fit_score,
+            "confidence_level": confidence_level,
+            "confidence_explanation": explanation,
+            "category": career.get("category"),
+            "difficulty_level": career.get("difficulty_level")
         })
 
-    scored.sort(
-        key=lambda x: x["confidence"]["fit_score"],
-        reverse=True
-    )
+    # ---------- SORT ----------
+    scored_careers.sort(key=lambda x: x["fit_score"], reverse=True)
 
-    selected = scored[0]["career"]
-    confidence = scored[0]["confidence"]
+    # ---------- SIMILARITY (OPTIONAL) ----------
+    if compare and scored_careers:
+        top_career = scored_careers[0]["career_name"]
+        similar = get_similar_careers(top_career)
 
-    roadmap = create_full_roadmap(
-        career=selected,
-        user_skills=skills,
-        effort=effort
-    )
-
-    explanation = generate_explanation(
-        career_data=selected,
-        confidence=confidence,
-        interest=interest,
-        effort=effort
-    )
+        return {
+            "best_match": scored_careers[0],
+            "alternatives": scored_careers[1:5],
+            "similar_careers": similar
+        }
 
     return {
-        "career": selected["career_name"],
-        "confidence": confidence,
-        "explanation": explanation,
-        "roadmap": roadmap
+        "recommendations": scored_careers[:5]
     }

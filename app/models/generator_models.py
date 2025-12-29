@@ -4,7 +4,7 @@ from typing import Optional, List
 
 class GeneratorRequest(BaseModel):
     career_name: str
-    user_interest: Optional[str] = None
+    user_interests: Optional[List[str]] = None
     user_skills: Optional[List[str]] = []
     tone: Optional[str] = "neutral"     # NEW
 

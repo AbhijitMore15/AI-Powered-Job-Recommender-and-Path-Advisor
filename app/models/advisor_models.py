@@ -1,11 +1,14 @@
 from pydantic import BaseModel
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
+
 
 class AdvisorRequest(BaseModel):
-    interest: str
-    skills: list[str]
+    interests: Optional[List[str]] = None
+    skills: List[str]
     experience_level: str = "beginner"
     effort: int = 3
+    compare: bool = False   # ✅ ADD THIS (required by route)
+
 
 class AdvisorResponse(BaseModel):
     career: Optional[str]

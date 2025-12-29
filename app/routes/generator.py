@@ -19,7 +19,7 @@ def summary(req: GeneratorRequest):
     career = _find_career(req.career_name)
     if not career:
         raise HTTPException(status_code=404, detail="Career not found")
-    text = generate_summary(career,user_interest=req.user_interest,tone=req.tone)
+    text = generate_summary(career,user_interests=req.user_interests,tone=req.tone)
     return {"career_name": career.get("career_name"), "summary": text}
 
 @router.post("/responsibilities", response_model=ResponsibilitiesResponse)
@@ -35,7 +35,7 @@ def why_fit(req: GeneratorRequest):
     career = _find_career(req.career_name)
     if not career:
         raise HTTPException(status_code=404, detail="Career not found")
-    text = generate_why_fit(career, req.user_skills or [], req.user_interest)
+    text = generate_why_fit(career, req.user_skills or [], req.user_interests)
     return {"career_name": career.get("career_name"), "why_fit": text}
 
 @router.post("/pitch", response_model=PitchResponse)

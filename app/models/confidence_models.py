@@ -1,3 +1,5 @@
+# app/models/confidence_models.py
+
 from pydantic import BaseModel, Field
 from typing import List, Optional
 
@@ -6,7 +8,7 @@ class ConfidenceRequest(BaseModel):
     career: str
     user_skills: List[str]
 
-    # accept both "interest" and "interests"
+    # optional (future use / compatibility)
     interests: Optional[List[str]] = Field(
         default=None,
         alias="interest"
@@ -21,3 +23,5 @@ class ConfidenceResponse(BaseModel):
     fit_score: int
     confidence_level: str
     explanation: str
+    matched_skills: List[str]
+    missing_skills: List[str]

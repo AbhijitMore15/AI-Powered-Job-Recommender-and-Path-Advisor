@@ -1,15 +1,19 @@
 from pydantic import BaseModel
 from typing import List, Optional
 
-class AssessmentRequest(BaseModel):
-    user_id: Optional[str] = None
-    skills: List[str]
-    interests: Optional[List[str]] = None
-    education: Optional[str] = None
-    experience_years: Optional[int] = 0
-    goals: Optional[str] = None
-    answers: List[float]  # REQUIRED for scoring
 
-class AssessmentResult(BaseModel):
-    score: float
-    category: str
+class AssessmentSubmitRequest(BaseModel):
+    selected_interests: List[str]
+    selected_skills: List[str]
+    confidence: Optional[float] = 0.7
+
+
+class AssessmentScore(BaseModel):
+    interest_match: float
+    skill_match: float
+    overall_match: float
+
+
+class AssessmentResponse(BaseModel):
+    score: AssessmentScore
+    recommendations: dict

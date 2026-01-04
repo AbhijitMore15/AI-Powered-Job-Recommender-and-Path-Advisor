@@ -1,6 +1,6 @@
 # app/utils/confidence_engine.py
 
-from typing import Dict, List
+from typing import List, Dict
 
 
 def calculate_confidence(
@@ -26,7 +26,7 @@ def calculate_confidence(
         level = "Weak Fit"
 
     explanation = (
-        f"You match {len(matched)} out of {len(required_set)} core skills."
+        f"You match {len(matched)} out of {len(required_set)} required skills."
     )
 
     return {

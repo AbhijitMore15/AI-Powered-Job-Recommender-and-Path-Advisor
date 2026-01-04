@@ -19,30 +19,73 @@ def build_timeline_phases(
 
     top_skills = [s for s, _ in prioritized_skills[:6]]
 
+    # --------------------
+    # 3 MONTH ROADMAP
+    # --------------------
     three_months = []
 
     if top_skills:
-        three_months.append(f"Week 1–2: Fundamentals of {top_skills[0]}")
+        three_months.append(f"Week 1–2: Learn fundamentals of {top_skills[0]}")
         three_months.append(f"Week 3–4: Build a mini project using {top_skills[0]}")
 
     if len(top_skills) > 1:
         three_months.append(f"Month 2: Learn {top_skills[1]} and integrate it")
 
     if len(top_skills) > 2:
-        three_months.append(f"Month 3: Add {top_skills[2]} and finalize project")
+        three_months.append(f"Month 3: Add {top_skills[2]} and finalize a basic system")
 
-    six_months = [
-        "Months 1–2: Complete core courses for top skills",
-        "Months 3–4: Build an integrated intermediate project",
-        "Months 5–6: Deploy, test, document, and polish portfolio"
-    ]
 
-    twelve_months = [
-        "Months 1–3: Strengthen foundations and algorithms",
-        "Months 4–6: Learn advanced topics and cloud deployment",
-        "Months 7–9: Build a production-level system",
-        "Months 10–12: Interview prep, mock interviews, job applications"
-    ]
+    # --------------------
+    # 6 MONTH ROADMAP
+    # --------------------
+    six_months = []
+
+    if top_skills:
+        six_months.append(f"Month 1: Deep dive into {top_skills[0]} with hands-on practice")
+
+    if len(top_skills) > 1:
+        six_months.append(f"Month 2: Learn {top_skills[1]} and extend the project")
+
+    if len(top_skills) > 2:
+        six_months.append(f"Month 3: Implement {top_skills[2]} and improve system quality")
+
+    if len(top_skills) > 3:
+        six_months.append(f"Month 4: Learn {top_skills[3]} and optimize performance or design")
+
+    if len(top_skills) > 4:
+        six_months.append(f"Month 5: Add {top_skills[4]} and build an intermediate project")
+
+    six_months.append(
+        "Month 6: Testing, documentation, deployment, and portfolio refinement"
+    )
+
+
+    # --------------------
+    # 12 MONTH ROADMAP
+    # --------------------
+    twelve_months = []
+
+    if top_skills:
+        twelve_months.append(f"Months 1–2: Build strong fundamentals in {top_skills[0]}")
+
+    if len(top_skills) > 1:
+        twelve_months.append(f"Months 3–4: Master {top_skills[1]} with real-world use cases")
+
+    if len(top_skills) > 2:
+        twelve_months.append(f"Months 5–6: Apply {top_skills[2]} in a scalable project")
+
+    if len(top_skills) > 3:
+        twelve_months.append(f"Months 7–8: Learn advanced concepts of {top_skills[3]}")
+
+    if len(top_skills) > 4:
+        twelve_months.append(
+            f"Months 9–10: Integrate {top_skills[4]} into a production-level system"
+        )
+
+    twelve_months.append(
+        "Months 11–12: System optimization, interview prep, mock interviews, and job applications"
+    )
+
 
     def tag(plan):
         return [f"{step} (pace x{speed})" for step in plan]
@@ -136,7 +179,7 @@ def generate_roadmap(
     }
 
 
-# ✅ WRAPPER FOR API & ADVISOR (THIS FIXES YOUR ERROR)
+# ✅ WRAPPER FOR API & ADVISOR
 def create_full_roadmap(
     career: Dict,
     user_skills: List[str],

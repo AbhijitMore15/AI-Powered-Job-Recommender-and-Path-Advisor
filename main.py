@@ -5,6 +5,13 @@ from fastapi.responses import JSONResponse
 from fastapi.exceptions import RequestValidationError
 from starlette.exceptions import HTTPException as StarletteHTTPException
 
+# Database
+from app.database.connect import engine, Base
+from app.models.auth_models import User
+
+Base.metadata.create_all(bind=engine)
+
+
 # Routers
 from app.routes.auth import router as auth_router
 from app.routes.assessment import router as assessment_router

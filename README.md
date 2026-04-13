@@ -1,6 +1,3 @@
-Here's a **more professional, polished, and visually appealing** version of your GitHub README. It uses clean markdown, better structure, consistent formatting, professional tone, and engaging visuals for a strong first impression.
-
-```markdown
 # 🚀 AI-Powered Career Recommender & Path Advisor
 
 **Backend System** | *Built with FastAPI + Explainable ML*
@@ -16,12 +13,12 @@ Here's a **more professional, polished, and visually appealing** version of your
 This is the **backend** for an intelligent Career Recommender and Path Advisor platform. It leverages **explainable AI** to deliver personalized career guidance with full transparency.
 
 ### Key Capabilities
-- **Personalized Career Recommendations**
-- **Career Comparison & Similarity Analysis**
-- **Skill Gap Assessment**
-- **Confidence Scoring**
-- **Personalized Learning Roadmaps**
-- **Career Clustering & Search**
+- Personalized Career Recommendations  
+- Career Comparison & Similarity Analysis  
+- Skill Gap Assessment  
+- Confidence Scoring  
+- Personalized Learning Roadmaps  
+- Career Clustering & Intelligent Search  
 
 The system is built with a **clean, modular FastAPI architecture** and prioritizes **interpretable machine learning** over black-box models.
 
@@ -45,9 +42,9 @@ The system is built with a **clean, modular FastAPI architecture** and prioritiz
 
 This project deliberately avoids opaque models. Every recommendation is **transparent and justifiable**:
 
-- **TF-IDF + Cosine Similarity** — Matches user skills/profile to careers
-- **KMeans Clustering** — Groups similar career paths
-- **Rule-based Logic** — Generates clear, human-readable explanations
+- **TF-IDF + Cosine Similarity** — Matches user skills/profile to careers  
+- **KMeans Clustering** — Groups similar career paths  
+- **Rule-based Logic** — Generates clear, human-readable explanations  
 
 Precomputed artifacts (vectors, similarity matrices, clusters) ensure **fast, production-ready responses**.
 
@@ -55,20 +52,36 @@ Precomputed artifacts (vectors, similarity matrices, clusters) ensure **fast, pr
 
 ## 🏗️ Project Structure
 
-```bash
+```plaintext
 career-ai-backend/
 ├── app/
-│   ├── data/                  # Datasets & ML artifacts
-│   ├── database/
-│   ├── ml/                    # ML logic (preprocess, similarity, clustering...)
-│   ├── models/                # Pydantic schemas
-│   ├── routes/                # API endpoints
-│   ├── services/              # Business logic
-│   └── utils/
-├── main.py
+│   ├── data/                    # Datasets & precomputed ML artifacts
+│   │   ├── careers.csv
+│   │   ├── careers.json
+│   │   ├── skill_difficulty.json
+│   │   ├── career_vectors.pkl
+│   │   ├── tfidf_vectorizer.pkl
+│   │   ├── tfidf_matrix.pkl
+│   │   ├── career_similarity.pkl
+│   │   └── career_clusters.pkl
+│   │
+│   ├── database/                # Database connection
+│   ├── ml/                      # Machine Learning core logic
+│   │   ├── preprocess.py
+│   │   ├── similarity.py
+│   │   ├── clustering.py
+│   │   └── classifier.py
+│   │
+│   ├── models/                  # Pydantic data models & schemas
+│   ├── routes/                  # API route handlers
+│   ├── services/                # Business logic layer
+│   └── utils/                   # Helper utilities
+│
+├── main.py                      # Application entry point
 ├── requirements.txt
 ├── .env
-└── ...
+├── .gitignore
+└── README.md
 ```
 
 ---

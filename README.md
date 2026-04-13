@@ -153,7 +153,7 @@ Open your browser and go to:
 ## 🤝 Credits
 
 - **Backend Developer**: Abhijit More(https://github.com/AbhijitMore15)
-- **Frontend Developer**:Arsh Mishra(https://github.com/ArshMishra20)
+- **Frontend Developer**:Arsh Mishra(https://github.com/ArshMishra04)
 
 ---
 
